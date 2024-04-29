@@ -6,7 +6,7 @@ layout: default
 <ul id="posts" style="width: 100%;">
 	{% for post in paginator.posts %}
 		<center style="width: 100%; margin: 0.3rem; padding: 0.5rem; display: flex; justify-content: space-between; align-items: center;" class="thumbnail post">
-			<img src="./img/covers/{{post.title}}.jpg" alt="cover" style="width: 20%; margin-right: 0.7rem; border-radius: 5%;">
+			<img src="./img/covers/{{post.title}}.jpg" alt="cover" style="width: 20%; border-radius: 5%;">
 			<div style="display: flex; flex-direction: column;">
 				<a  href="{% if site.baseurl == '/' %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">
 					<h4>{{ post.title }}</h4>
