@@ -5,7 +5,7 @@ layout: default
 
 <ul id="posts" style="width: 100%;">
 	{% for post in paginator.posts %}
-		<div style="width: 100%; margin: 0.3rem; display: flex; justify-content: space-between; align-items: center;" class="thumbnail post">
+		<center style="width: 100%; margin: 0.3rem; display: flex; justify-content: space-between; align-items: center;" class="thumbnail post">
 			<img src="./img/covers/{{post.title}}.jpg" alt="cover" style="width: 20%; margin-right: 0.7rem">
 			<div style="display: flex; flex-direction: column;">
 				<a  href="{% if site.baseurl == '/' %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">
@@ -13,7 +13,7 @@ layout: default
 				</a>
 				<p style="font-weight: normal;">{{ post.date | date_to_string }}</p>
 			</div>
-		</div>
+		</center>
     {% endfor %}
 
 </ul>
