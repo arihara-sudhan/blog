@@ -143,7 +143,6 @@ html, body {
   &:after {
   	display: block;
     content: '';
-    width: 5rem;
     height: 1px;
     margin: 23px auto;
     background-color: lighten($text-color, 70%);
