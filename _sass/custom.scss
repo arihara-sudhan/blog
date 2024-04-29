@@ -2,14 +2,8 @@
 // -- Put custom style under this point -- //
 
 .post {
-  margin: 0.31rem;
-  padding: 0.51rem;
   border: 0.81px solid rgba(0,0,0,0.4);
   border-radius: 1rem;
-}
-
-#posts {
-  width: 100%;
 }
 
 #post-page time {
@@ -17,12 +11,5 @@
 }
 
 .thumbnail img {
-  width: 40vw;
   margin-right: 0.37rem;
-}
-
-@media only screen and (max-width: 950px) {
-  .thumbnail p {
-    font-size: 3vw;
-  }
 }
