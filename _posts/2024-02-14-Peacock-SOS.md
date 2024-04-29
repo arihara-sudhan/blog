@@ -2,14 +2,24 @@ It's my usual activity to walk in the evening into the woods.
 
 Since I live in a village, I seek fresh air and new ideas from nature. Nature is the mother of invention, as many inventions stem from it. We don’t create anything by ourselves; we observe nature and derive good ideas from it.
 
-One day, while sitting on a rock surrounded by lime grasses (https://images.app.goo.gl/XnW5dFD5Mif8urSz8) , I watched a peahen with its chicks attempting to cross a pond. When it crossed, all the chicks flew, but unfortunately, one fell into the water and began swimming (they are naturally good swimmers).
+One day, while sitting on a rock surrounded by lime grasses, I watched a peahen with its chicks attempting to cross a pond.
 
-After some time, it couldn't cross the pond, perhaps due to exhaustion, and started to drown. With a panicked heart, I jumped into the water, reached the spot, and somehow rescued the chick. I tried to blow air on it and performed CPR, but still couldn't see any improvement. So, I decided to take it home.
+<figure>
+  <img src="https://m.media-amazon.com/images/I/A1p92fq+RzL._AC_UF894,1000_QL80_.jpg" width="100%">
+  <figcaption>Lemon Grass</figcaption>
+</figure>
 
-In my small home, my grandmother keeps some hens and roosters. One of the hens was with around seven chicks. Nestling under the Koonai (a pot-like structure used for retrieving water from wells, which is now repurposed as a home for hens and roosters in many villages;  https://images.app.goo.gl/Kk1RXk6exzSj2Q5C8), I placed the peafowl chick with them.
+When it crossed, all the chicks flew, but unfortunately, one fell into the water and began swimming (they are naturally good swimmers). After some time, it couldn't cross the pond, perhaps due to exhaustion, and started to drown. With a panicked heart, I jumped into the water, reached the spot, and somehow rescued the chick. I tried to blow air on it and performed CPR, but still couldn't see any improvement. So, I decided to take it home.
+
+In my small home, my grandmother keeps some hens and roosters. One of the hens was with around seven chicks. Nestling under the Koonai (a pot-like structure used for retrieving water from wells, which is now repurposed as a home for hens and roosters in many villages), I placed the peafowl chick with them.
+
+<figure>
+  <img src="https://kjtamil.b-cdn.net/media/10874/irrigation.jpg?format=webp" width="100%">
+  <figcaption>Kamalai/Koonai</figcaption>
+</figure>
 
 The next morning, although the hen accepted the peafowl chick as one of its offspring, I thought there could be another mother counting her chicks.
 
 Thus, I took the chick to the shore of the pond from where I found it, hoping the mother would be there. Thankfully, I found the mother, but sadly, it did not come within a close distance.
 
-Therefore, I let the chick fly, my mind filled with positive energy! ❤️
+Therefore, I let the chick fly, my mind filled with positive energy asusual! ❤️
