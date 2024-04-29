@@ -5,8 +5,9 @@ data characterized by high intraclass variance, while noting their strengths in 
 In simple datasets such as MNIST and Omniglot, both models performed exceptionally well. Specifically, ResNet50 achieved 
 an impressive accuracy rate of 99%, showcasing its prowess in capturing patterns effectively. In contrast, the ViT Model 
 achieved a slightly lower accuracy of 96%. This outcome is understandable, as ResNet50 excels at pattern recognition in 
-these low-intraclass variance datasets. 🦉 However, when more complex data with high intraclass variance was introduced, 
-the performance gap between the two models became more apparent. ResNet50's accuracy dropped significantly to 56%, demonstrating 
+these low-intraclass variance datasets. 🦉 
+
+However, when more complex data with high intraclass variance was introduced, the performance gap between the two models became more apparent. ResNet50's accuracy dropped significantly to 56%, demonstrating 
 its struggle with the increased intraclass variance. On the other hand, the ViT Model's accuracy remained relatively higher at 77%,
 indicating its ability to comprehend the context and adapt to datasets with more variability. 📉
 
@@ -25,7 +26,8 @@ So, what I've been experimenting with is a FewShot model, and it turns out that 
 I initiated the experiment by training the model using a triplet setup with the MNIST images belonging to category 7, 8, and 9. 🍀
 When I trained the model on just those three classes (7, 8, 9), it performed remarkably well, achieving an accuracy of 98%. 
 However, as I introduced more unseen classes during testing, things got a bit trickier. Testing on two new classes (5, 6) still gave me a respectable 
-accuracy of 90%. A Considerable Generalization! 🙂 As I expanded the testing set to include three unseen classes (4, 5, 6), the accuracy dropped slightly to 89%.
+accuracy of 90%. A Considerable Generalization! 🙂 
+As I expanded the testing set to include three unseen classes (4, 5, 6), the accuracy dropped slightly to 89%.
 It continued to drop as I included four unseen classes (3, 4, 5, 6), reaching 84%. The model started to struggle with entirely different classes. But then, something
 interesting happened when I introduced class 1. Its similarity to class 7 helped the model, and the accuracy went up. 😃 
 
