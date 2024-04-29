@@ -16,7 +16,7 @@ indicating its ability to comprehend the context and adapt to datasets with more
 It's important to emphasize that both ResNet50 and the ViT Model have their unique strengths and weaknesses. 
 A ViT Model may not be capable of accomplishing what a ResNet50 can do, and vice versa. Each model is optimized for specific tasks and
 scenarios, and their performance varies based on the nature of the data they are presented with. ❤️<br>
-<a href='https://lnkd.in/gk9sf_hc'>Link to REPO</a> </span>
+<a href='https://lnkd.in/gk9sf_hc'>Link to REPO</a>
 
 ### (2/4) FewShot Model tends to behave like A Classification Model??? 😲
 
