@@ -14,6 +14,7 @@ layout: default
 			</div>
 			<div style="display: flex; justify-content: space-between;">
 				<img src="./img/covers/{{post.title}}.jpg" alt="cover" style="width: 40%;" style="margin-right: 0.7rem">
+				<p style="text-align: justify; text-justify: inter-word; font-size: 1vw; font-weight: normal;">{{ post.content | strip_html | truncatewords:100 }}</p>
 			</div>
 		</a>
 	  </li>
