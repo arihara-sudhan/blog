@@ -145,7 +145,7 @@ html, body {
     content: '';
     height: 1px;
     margin: 23px auto;
-    background-color: lighten($text-color, 70%);
+    background-color: rgba(0,0,0,0.2);
   }
 }
 
