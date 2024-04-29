@@ -6,16 +6,13 @@ layout: default
 <ul id="posts"">
 
 	{% for post in paginator.posts %}
-	  <li class="post" style="margin: 0.7rem">
-		<a  href="{% if site.baseurl == '/' %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}" style="width: 100%;">
-			<div style="display: flex; justify-content: space-between; width: 100%;" class="thumbnail">
+			<div style="margin: 0.3rem; display: flex; justify-content: space-between; width: 100%;" class="thumbnail post">
 				<img src="./img/covers/{{post.title}}.jpg" alt="cover" style="width: 20%; margin-right: 0.7rem">
-				<h2>{{ post.title }}</h2>
+				<a  href="{% if site.baseurl == '/' %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">
+					<h2>{{ post.title }}</h2>
+				</a>
 				<p style="font-weight: normal;">{{ post.date | date_to_string }}</p>
 			</div>
-		</a>
-	  </li>
-
     {% endfor %}
 
 </ul>
