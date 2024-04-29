@@ -3,15 +3,17 @@
 // Based on the typographic scale: 12, 14, 16, 18, 21, 24, 36, 48, 60, 72.
 //
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: "Roboto", sans-serif;
 	letter-spacing: 0.01em;
 }
 
 /*- Typography for medium and small screen, based on 16px font-size -*/
 
 p, ul, ol {
-	font-size: 4vw; /* 4*16px */
+	font-size: 1em; /* 16px */
 	line-height: 1.5em; /* 24px/16px */
 	margin-bottom: 1.5em; /* 24px/16px */
 }
@@ -48,8 +50,9 @@ blockquote {
 	}
 }
 
+/*- Typography for big screen, based on 18px font-size -*/
 
-@media (min-width: 940px) { 
+@media (min-width: 940px) { //Breakpoint set to 940px
 
 p, ul, ol {
 	font-size: 1em; /* 18px */
