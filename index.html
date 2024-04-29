@@ -13,7 +13,7 @@ layout: default
 				<p style="font-weight: normal;">{{ post.date | date_to_string }}</p>
 			</div>
 			<div style="display: flex; justify-content: space-between;">
-				<img src="./img/covers/{{post.title}}.jpg" alt="cover" width="40%" style="margin-right: 0.7rem">
+				<img src="./img/covers/{{post.title}}.jpg" alt="cover" width="50%" style="margin-right: 0.7rem">
 				<p style="text-align: justify; text-justify: inter-word; font-size: 1vw; font-weight: normal;">{{ post.content | strip_html | truncatewords:140 }}</p>
 			</div>
 		</a>
