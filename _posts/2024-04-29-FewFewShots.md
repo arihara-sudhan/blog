@@ -1,4 +1,3 @@
-<style>b{color: lightgreen}</style>
 ### (1/4) A FewShot Experiment : ResNet50 and ViT on High Intraclass Variance
 The main goal here is to highlight the differences in performance between ResNet50 and the ViT model when dealing with 
 data characterized by high intraclass variance, while noting their strengths in simpler datasets like MNIST and Omniglot 👾
@@ -71,9 +70,7 @@ the time required for embedding extraction, and memory usage. The accuracy was s
 
 Furthermore, we can observe that one embedding collectively represents the features of multiple images.  This way, misclustering is reduced to some extent when considering them collectively (Outliers Problem Solved 🤭).
 
-> NON-COLLAGED EMBEDDINGS
-    TOTAL SAMPLES : 1621 | EMBEDDINGS EXTRACTION TIME : 35 SECONDS | SIZE OF EMBEDDINGS : 981 MB | ACCURACY : 99.01 % 
+> NON-COLLAGED EMBEDDINGS : TOTAL SAMPLES : 1621 | EMBEDDINGS EXTRACTION TIME : 35 SECONDS | SIZE OF EMBEDDINGS : 981 MB | ACCURACY : 99.01 % 
 
-> COLLAGED EMBEDDINGS
-    TOTAL SAMPLES : 182 | EMBEDDINGS EXTRACTION TIME : 3 SECONDS | SIZE OF EMBEDDINGS : 105 MB | ACCURACY : 99.01 % <br>
+> COLLAGED EMBEDDINGS : TOTAL SAMPLES : 182 | EMBEDDINGS EXTRACTION TIME : 3 SECONDS | SIZE OF EMBEDDINGS : 105 MB | ACCURACY : 99.01 % <br>
     
