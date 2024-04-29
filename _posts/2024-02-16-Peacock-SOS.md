@@ -23,3 +23,6 @@ The next morning, although the hen accepted the peafowl chick as one of its offs
 Thus, I took the chick to the shore of the pond from where I found it, hoping the mother would be there. Thankfully, I found the mother, but sadly, it did not come within a close distance.
 
 Therefore, I let the chick fly, my mind filled with positive energy asusual! ❤️
+
+Watch what you have read now....
+
