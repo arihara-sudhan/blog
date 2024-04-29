@@ -7,13 +7,11 @@ layout: default
 
 	{% for post in paginator.posts %}
 	  <li class="post" style="margin: 0.7rem">
-	  	<a href="{% if site.baseurl == '/' %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">
-			<div style="display: flex; justify-content: space-between;" class="thumbnail">
-				<img src="./img/covers/{{post.title}}.jpg" alt="cover" style="width: 20%; margin-right: 0.7rem">
-				<h2>{{ post.title }}</h2>
-				<p style="font-weight: normal;">{{ post.date | date_to_string }}</p>
-			</div>
-		</a>
+		<div  style="display: flex; justify-content: space-between;" class="thumbnail" href="{% if site.baseurl == '/' %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">
+			<img src="./img/covers/{{post.title}}.jpg" alt="cover" style="width: 20%; margin-right: 0.7rem">
+			<h2>{{ post.title }}</h2>
+			<p style="font-weight: normal;">{{ post.date | date_to_string }}</p>
+		</div>
 	  </li>
 
     {% endfor %}
