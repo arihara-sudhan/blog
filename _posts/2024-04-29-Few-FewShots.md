@@ -11,13 +11,16 @@ its struggle with the increased intraclass variance. On the other hand, the ViT 
 indicating its ability to comprehend the context and adapt to datasets with more variability. 📉
 
 <img src='https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/main/statics/blog1.jpeg?raw=true' alt='imghere' width="100%">
+
 It's important to emphasize that both ResNet50 and the ViT Model have their unique strengths and weaknesses. 
 A ViT Model may not be capable of accomplishing what a ResNet50 can do, and vice versa. Each model is optimized for specific tasks and
-scenarios, and their performance varies based on the nature of the data they are presented with. ❤️
+scenarios, and their performance varies based on the nature of the data they are presented with. ❤️<br>
 <a href='https://lnkd.in/gk9sf_hc'>Link to REPO</a> </span>
 
 ### (2/4) FewShot Model tends to behave like A Classification Model??? 😲
+
 <img src='https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/main/statics/blog2.jpeg?raw=true' alt='img' width="100%">
+
 So, what I've been experimenting with is a FewShot model, and it turns out that its generalization depends on the number of unseen classes during testing. 
 I initiated the experiment by training the model using a triplet setup with the MNIST images belonging to category 7, 8, and 9. 🍀
 When I trained the model on just those three classes (7, 8, 9), it performed remarkably well, achieving an accuracy of 98%. 
@@ -32,18 +35,26 @@ back up to 80%, but it still wasn't as high as when I started with just three cl
 
 It appears that the model's generalization performance is influenced by the number of classes used during training. Introducing a greater number of classes during testing than what was used for training tends to confuse the model.
 Let's consider training with a larger number of classes and, during testing, aim to keep the number of classes lower than those used in training to an extent!
-
+<br><br>
 Trained on 3 (7,8,9) CLASSES :98%
+<br>
 Testing on 2 (5,6) : 90% [K-MEANS : 89%]
+<br>
 Testing on 3 (4,5,6) : 89% [K-MEANS : 79%]
+<br>
 Testing on 4 (3,4,5,6) : 84% [K-MEANS : 70%]
+<br>
 Testing on 5 (2,3,4,5,6) : 79% [K-MEANS : 61%]
+<br>
 Testing on 6 (1,2,3,4,5,6) : 81% [K-MEANS : 64%]
+<br>
 Testing on 6 (0,2,3,4,5,6) : 77% [K-MEANS : 55%]
+<br>
 Testing on 7 (0,1,2,3,4,5,6) : 80% [K-MEANS : 63%]
-
+<br><br>
 Doubts may arise regarding whether a low number of classes leads to fewer mispredictions. This example illustrates the behavior of a few-shot model, 
 which doesn't fall within our assumptions... 
+
 <img src='https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/main/statics/blog3.png?raw=true' alt='img' width="100%">
 
 ### (3/4) Classification Model tends to behave like A FewShot Model??? 😲
@@ -55,6 +66,7 @@ Subsequently, when I introduced classes featuring shades of orange, pink, and vi
 Although not as potent as specialized few-shot techniques like Triplet or Contrastive Training, which are explicitly designed for such scenarios, 
 this classifier performed admirably in identifying underlying patterns, particularly when dealing with simple image categories such as color shades.
 Interesting! 😃
+
 <img src='https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/main/statics/blog4.jpeg?raw=true' alt='img' width="100%">
 
 ### (4/4)💡 IDEA : Collaged Images as Embeddings in FewShot Learning!
@@ -66,6 +78,7 @@ If we simply follow this approach, it becomes time-consuming to extract embeddin
 I thought like: why not create collages of sample images, extract their embeddings, and store them in the database? This would reduce the space and time required, depending on the number of samples we need in a single image.
 I conducted experiments with a simple dataset and achieved 99% accuracy using the conventional method with individual samples. However, it was resource-intensive. When I introduced collages (3x3) of samples, we reduced the number of samples, 
 the time required for embedding extraction, and memory usage. The accuracy was still 99%!😍 
+
 <img src='https://github.com/arihara-sudhan/arihara-sudhan.github.io/blob/main/statics/blog5.jpeg?raw=true' alt='img' width="100%">
 
 Furthermore, we can observe that one embedding collectively represents the features of multiple images.  This way, misclustering is reduced to some extent when considering them collectively (Outliers Problem Solved 🤭).
