@@ -21,6 +21,8 @@
   margin-right: 0.37rem;
 }
 
-.thumbnail p {
-  font-size: 2vw;
+@media only screen and (max-width: 950px) {
+  .thumbnail p {
+    font-size: 3vw;
+  }
 }
