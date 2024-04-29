@@ -12,9 +12,9 @@ It's part of my village culture to bathe in that river after celebrating the ann
 
 <figure>
   <img src="img/karambai1.png" width="100%">
-  <figcaption>
-   <i style="font-size: 1vw">The Southern Boy after taking a bath in Karambai (2023)</i> 
- </figcaption>
+  <center><figcaption>
+   The Southern Boy after taking a bath in Karambai (2023)
+ </figcaption></center>
 </figure>
 In my childhood, while swimming in the Karambai Aaru with my father, I encountered these fish. Their specialty is the diamond-like structure on their heads. These fish always swim near the surface!
 
