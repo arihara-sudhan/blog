@@ -11,6 +11,9 @@ body {
 /*- Typography for medium and small screen, based on 16px font-size -*/
 
 @media (max-width: 940px) { //Breakpoint set to 940px
+.thumbnail p {
+	 font-size: 3vw;
+}
 p, ul, ol {
 	font-size: 1.2em; /* 16px */
 	line-height: 1.5em; /* 24px/16px */
@@ -53,7 +56,9 @@ blockquote {
 /*- Typography for big screen, based on 18px font-size -*/
 
 @media (min-width: 940px) { //Breakpoint set to 940px
-
+.thumbnail p {
+	 font-size: 1vw;
+}
 p, ul, ol {
 	font-size: 1em; /* 18px */
 	line-height: 1.3334em; /* 24px/18px */
