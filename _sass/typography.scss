@@ -10,7 +10,6 @@ body {
 
 /*- Typography for medium and small screen, based on 16px font-size -*/
 
-@media (max-width: 940px) { //Breakpoint set to 940px
 p, ul, ol {
 	font-size: 2vw; /* 16px */
 	line-height: 1.5em; /* 24px/16px */
@@ -48,11 +47,9 @@ blockquote {
 		padding: 1.5em 0; /* 24px/18px */
 	}
 }
-}
 
-/*- Typography for big screen, based on 18px font-size -*/
 
-@media (min-width: 940px) { //Breakpoint set to 940px
+@media (min-width: 940px) { 
 
 p, ul, ol {
 	font-size: 1em; /* 18px */
