@@ -20,7 +20,3 @@ It's important to emphasize that both ResNet50 and the ViT Model have their uniq
 <h3>Links to Datasets Used</h3>
 <a href="https://www.kaggle.com/datasets/watesoyan/omniglot">Link to Omniglot Dataset</a><br>
 <a href="https://www.kaggle.com/datasets/aravindariharasudhan/animals-insects-reptiles">Link to Animals Dataset</a>
-
-
-
-<style>a {text-decoration: underlined; }</style>
