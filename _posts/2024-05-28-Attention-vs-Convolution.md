@@ -16,3 +16,7 @@ A Brief comparison  between ViT and CNN is here!
 <h3>Links to Datasets Used</h3>
 <a href="https://www.kaggle.com/datasets/watesoyan/omniglot">Link to Omniglot Dataset</a><br>
 <a href="https://www.kaggle.com/datasets/aravindariharasudhan/animals-insects-reptiles">Link to Animals Dataset</a>
+
+
+
+<style>a {text-decoration: underlined; }</style>
