@@ -9,10 +9,10 @@ However, when more complex data with high intraclass variance was introduced, th
 It's important to emphasize that both ResNet50 and the ViT Model have their unique strengths and weaknesses. A ViT Model may not be capable of accomplishing what a ResNet50 can do, and vice versa. Each model is optimized for specific tasks and scenarios, and their performance varies based on the nature of the data they are presented with. ❤️ 
 </span><br>
 <h3>Intuition of Triplet Loss and How we do it is <a href="https://www.mediafire.com/file/sntleqxee2cte9n/triptrans.pdf/file">HERE</a></h3>
-<img src="https://arihara-sudhan.github.io/statics/triptrans.png" alt="cover">
+<img src="https://arihara-sudhan.github.io/statics/triptrans.png" alt="cover" width="100%">
 
 A Brief comparison  between ViT and CNN is here!
-<img src="https://www.marktechpost.com/wp-content/uploads/2024/05/Screenshot-2024-05-13-at-4.23.58-AM.png" alt="">
+<img src="https://www.marktechpost.com/wp-content/uploads/2024/05/Screenshot-2024-05-13-at-4.23.58-AM.png" alt="" width="100%">
 <h3>Links to Datasets Used</h3>
 <a href="https://www.kaggle.com/datasets/watesoyan/omniglot">Link to Omniglot Dataset</a><br>
 <a href="https://www.kaggle.com/datasets/aravindariharasudhan/animals-insects-reptiles">Link to Animals Dataset</a>
