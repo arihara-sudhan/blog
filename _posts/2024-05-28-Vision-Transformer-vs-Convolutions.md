@@ -1,5 +1,4 @@
 Can we use Vision Transformers for FewShot Learning? Indeed!
-<h1>Intraclass Variance : ViT vs ResNet50</h1>
 <img src="https://github.com/arihara-sudhan/ViT_for_FewShotLearning/blob/main/imgs/photo-output.jpg?raw=true" alt="img-loss">
 <span>
 <h3>An Experiment : ResNet50 and ViT on High Intraclass Variance ☘️</h3>
