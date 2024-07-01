@@ -7,7 +7,7 @@ During my time at Estancia Campus, I had the opportunity to see many bamboos. In
 Just for fun, I once mentioned to Ram that the Tamil word "Paambu" sounds similar to "Bamboo". He responded, saying, "Yeah, it might be."
 
 This led us into a deeper exploration. In Tamil, "Paambu" means snake. The bamboo tree does resemble a snake. Speaking of snakes, in Tamil we have the word "Nagam", which usually refers to cobras.
-
+<img src="https://images.pexels.com/photos/10509714/pexels-photo-10509714.jpeg?cs=srgb&dl=pexels-anilsharma65-10509714.jpg&fm=jpg" alt="">
 I speculate that the word "snake" comes from "Nagam", and if you remove 's' from "snake", you get "nake" (but don't take this too seriously). Also, "snake" becomes "nake" if you remove 's' (skin).
 
 The main point to consider here is that "nake" resembles the Tamil word "Nagam". "Nagam" is found in other languages in India too, but I strongly believe it originates from the Tamil word "Naa" (Naakku: Tongue). A snake resembles a human tongue. The Tamil word "Naai" means dog, which is also derived from "Naa". This is because a dog is known for always having its tongue out.
