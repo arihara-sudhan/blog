@@ -22,10 +22,10 @@ Now, let's return to the topic of bamboo. The actual word for bamboo in Tamil is
 
 The main discovery here is that I am not very familiar with bamboo, but I am very familiar with "Pirambu (பிரம்பு)". "Pirambu" is the Tamil word for rattan (calamus pseudotenuis), which is a bamboo-like tree.
 
-<img src="https://5.imimg.com/data5/ANDROID/Default/2020/11/ZM/DY/WC/61165781/prod-20201130-1650321548607707-jpg.jpg" width="100%">
+<img src="https://wwfeu.awsassets.panda.org/img/original/the_raw_material_of_rattan_harvested_from_a_well_managed_forest___photo_credits__kurniad.jpg" width="100%">
 In my village, I have used it to make fish-catching baskets ("Koondu"). We use it for making baskets to keep chickens and roosters (not both together!).
 
 I mostly see rattan sticks in the hands of Southern Gods like Sudalai Madan, Palavesakkaran, Pattavarayan, Sastha, Karuppasami, Thalavaai Madan, Vidu Madan, Sangili Boothathar, Amman (such as Muppudaathi, Mari, Pathirakaali, Esakki, Petchi, and most of the southern goddesses). They all hold a rattan.
 
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj8Q8IZquUMHbgUbULnFMBOahJ2-zv0Q8esw&s" width="100%">
+<img src="https://5.imimg.com/data5/ANDROID/Default/2020/11/ZM/DY/WC/61165781/prod-20201130-1650321548607707-jpg.jpg" width="100%">
 "Pirambu" sounds similar to bamboo, and both are morphologically similar! Now, the research becomes even more interesting! Let me research more!
