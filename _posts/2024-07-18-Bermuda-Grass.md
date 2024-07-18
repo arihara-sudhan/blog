@@ -3,10 +3,10 @@ Have you ever heard of this grass? It is also called Scutch Grass. In Tamil, it 
 <img src="https://levypreserve.org/wp-content/uploads/2022/12/cynodon-dactylon-stem-with-leaves.jpg" width="100%">
 It is known for its medicinal nature, which is good for health and serves as food for cattle. In Southern India, people who worship Pillaiyaar (Lord Ganesh) offer him a garland made of Bermuda Grass. Some people gather cow dung, form it into an elliptical sphere, and insert Bermuda grass on the top, considering it a form of Pillaiyaar.
 
-Pillaiyaar is highly related to Arugampul. If you know Tamil, listen to the following songs on YouTube:
-<a href="https://youtu.be/GHXxjA9qkcg?si=LlLxyytllvel-MiG">Arugampullukkum Perumathanthathu Yaaru? Yaaru?</a>
-<a href="https://youtu.be/d3Id-bvqYOU?si=ir539cT_jTO3227h">An Album In The Name of Arugampul</a>
-<a hred="https://youtu.be/R8WUhl72gZw?si=SgeKxwouA1xK8Xg8">Arugampullil Asaivathu Yaaru?</a>
+Pillaiyaar is highly related to Arugampul. If you know Tamil, listen to the following songs on YouTube: <br>
+<a href="https://youtu.be/GHXxjA9qkcg?si=LlLxyytllvel-MiG">Arugampullukkum Perumathanthathu Yaaru? Yaaru?</a><br>
+<a href="https://youtu.be/d3Id-bvqYOU?si=ir539cT_jTO3227h">An Album In The Name of Arugampul</a><br>
+<a hred="https://youtu.be/R8WUhl72gZw?si=SgeKxwouA1xK8Xg8">Arugampullil Asaivathu Yaaru?</a><br>
 
 I suspect that Pillaiyaar (where "pul" means grass) may have been derived from "Pillaiyaar" (just a fun suspicion).
 
