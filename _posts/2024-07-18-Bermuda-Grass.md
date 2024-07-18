@@ -1,5 +1,6 @@
 Have you ever heard of this grass? It is also called Scutch Grass. In Tamil, it is called Arugampul, which goats love to eat.
 
+<img src="https://levypreserve.org/wp-content/uploads/2022/12/cynodon-dactylon-stem-with-leaves.jpg" width="100%">
 It is known for its medicinal nature, which is good for health and serves as food for cattle. In Southern India, people who worship Pillaiyaar (Lord Ganesh) offer him a garland made of Bermuda Grass. Some people gather cow dung, form it into an elliptical sphere, and insert Bermuda grass on the top, considering it a form of Pillaiyaar.
 
 Pillaiyaar is highly related to Arugampul. If you know Tamil, listen to the following songs on YouTube:
