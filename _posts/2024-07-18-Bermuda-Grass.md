@@ -3,6 +3,7 @@ Have you ever heard of this grass? It is also called Scutch Grass. In Tamil, it 
 <img src="https://levypreserve.org/wp-content/uploads/2022/12/cynodon-dactylon-stem-with-leaves.jpg" width="100%">
 It is known for its medicinal nature, which is good for health and serves as food for cattle. In Southern India, people who worship Pillaiyaar (Lord Ganesh) offer him a garland made of Bermuda Grass. Some people gather cow dung, form it into an elliptical sphere, and insert Bermuda grass on the top, considering it a form of Pillaiyaar.
 
+<img src="https://cdn-aws.omtamilcalendar.com/general/html/web-stories/vinayagar_chathurthi/06.jpg" width="100%">
 Pillaiyaar is highly related to Arugampul. If you know Tamil, listen to the following songs on YouTube: <br><br>
 <a href="https://youtu.be/GHXxjA9qkcg?si=LlLxyytllvel-MiG">1. Arugampullukkum Perumathanthathu Yaaru? Yaaru?</a><br>
 <a href="https://youtu.be/d3Id-bvqYOU?si=ir539cT_jTO3227h">2. An Album In The Name of Arugampul</a><br>
