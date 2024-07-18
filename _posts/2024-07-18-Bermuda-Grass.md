@@ -6,7 +6,8 @@ It is known for its medicinal nature, which is good for health and serves as foo
 Pillaiyaar is highly related to Arugampul. If you know Tamil, listen to the following songs on YouTube: <br>
 <a href="https://youtu.be/GHXxjA9qkcg?si=LlLxyytllvel-MiG">Arugampullukkum Perumathanthathu Yaaru? Yaaru?</a><br>
 <a href="https://youtu.be/d3Id-bvqYOU?si=ir539cT_jTO3227h">An Album In The Name of Arugampul</a><br>
-<a hred="https://youtu.be/R8WUhl72gZw?si=SgeKxwouA1xK8Xg8">Arugampullil Asaivathu Yaaru?</a><br>
+<a href="https://youtu.be/R8WUhl72gZw?si=SgeKxwouA1xK8Xg8">Arugampullil Asaivathu Yaaru?</a>
+<br>
 
 I suspect that Pillaiyaar (where "pul" means grass) may have been derived from "Pillaiyaar" (just a fun suspicion).
 
