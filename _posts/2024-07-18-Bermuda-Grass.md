@@ -20,7 +20,7 @@ This is in the Purana. In Tamil Bow Stories (Villu Paattu), people claim that wh
 Its scientific name is Cynodon dactylon. In Greek, Cyno (Kynos) means dog, and odon refers to teeth (do you know Pepsodent?). Termites are known for their teeth, hence the scientific name Odontotermus obesus. So, Cynodon means dog-teeth. Does Bermuda Grass look like dog teeth? Yes!
 
 <img src="https://www.feedipedia.org/sites/default/files/images/cynodon_dactylon_starr-080209-2655.jpg" width="100%">
-Dactylon refers to fingers! Also, some words having one long syllable followed by one short syllable are known as dactyls in the English language. For example: bicycle (bi-cy-cle).
+Dactylon refers to fingers! Also, some words having one long syllable followed by one short syllable are known as dactyls in the English language. For example: bicycle (bi-cy-cle), fabulous (fab-u-lous).
 
 <img src="https://study.com/cimages/multimages/16/dactyl.png" width="100%">
 I guess now you can understand why dactyl means finger when looking at the following picture.
