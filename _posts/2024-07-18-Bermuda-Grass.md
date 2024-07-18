@@ -9,7 +9,7 @@ Pillaiyaar is highly related to Arugampul. If you know Tamil, listen to the foll
 <a href="https://youtu.be/d3Id-bvqYOU?si=ir539cT_jTO3227h">2. An Album In The Name of Arugampul</a><br>
 <a href="https://youtu.be/R8WUhl72gZw?si=SgeKxwouA1xK8Xg8">3. Arugampullil Asaivathu Yaaru?</a>
 <br><br>
-I suspect that Pillaiyaar may have been derived from "Pullaiyaar" where "pul" means grass (just a fun suspicion). Other plants related to Pillaiyar are White Crown Flower (Calotropis gigantia), Holy Fig (Ficus religiosa) and so on.
+I suspect that Pillaiyaar may have been derived from "Pullaiyaar" where "pul" means grass (just a fun suspicion). Other plants related to Pillaiyar are White Crown Flower (Calotropis gigantia : Root resembles Pillaiyaar), Holy Fig (Ficus religiosa : Leaf resembles Pillaiyaar) and so on.
 
 It is given great importance in mythologies too. In the Ramayana, the sage Valmiki observes Sita's son, Lava's absence, and concludes that some animal had carried him away. Believing that Sita would not be able to bear the loss of her son, Valmiki creates an identical son from kusha grass (some say it's not Bermuda Grass) and places him on Lava's cot. When Sita and Lava notice Lava's doppelganger, the sage explains what he had done, and she decides to raise the boy as Lava's twin, naming him Kusha.
 
