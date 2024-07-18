@@ -3,11 +3,11 @@ Have you ever heard of this grass? It is also called Scutch Grass. In Tamil, it 
 <img src="https://levypreserve.org/wp-content/uploads/2022/12/cynodon-dactylon-stem-with-leaves.jpg" width="100%">
 It is known for its medicinal nature, which is good for health and serves as food for cattle. In Southern India, people who worship Pillaiyaar (Lord Ganesh) offer him a garland made of Bermuda Grass. Some people gather cow dung, form it into an elliptical sphere, and insert Bermuda grass on the top, considering it a form of Pillaiyaar.
 
-Pillaiyaar is highly related to Arugampul. If you know Tamil, listen to the following songs on YouTube: <br>
-<a href="https://youtu.be/GHXxjA9qkcg?si=LlLxyytllvel-MiG">Arugampullukkum Perumathanthathu Yaaru? Yaaru?</a><br>
-<a href="https://youtu.be/d3Id-bvqYOU?si=ir539cT_jTO3227h">An Album In The Name of Arugampul</a><br>
-<a href="https://youtu.be/R8WUhl72gZw?si=SgeKxwouA1xK8Xg8">Arugampullil Asaivathu Yaaru?</a>
-<br>
+Pillaiyaar is highly related to Arugampul. If you know Tamil, listen to the following songs on YouTube: <br><br>
+<a href="https://youtu.be/GHXxjA9qkcg?si=LlLxyytllvel-MiG">1. Arugampullukkum Perumathanthathu Yaaru? Yaaru?</a><br>
+<a href="https://youtu.be/d3Id-bvqYOU?si=ir539cT_jTO3227h">2. An Album In The Name of Arugampul</a><br>
+<a href="https://youtu.be/R8WUhl72gZw?si=SgeKxwouA1xK8Xg8">3. Arugampullil Asaivathu Yaaru?</a>
+<br><br>
 I suspect that Pillaiyaar may have been derived from "Pullaiyaar" where "pul" means grass (just a fun suspicion).
 
 It is given great importance in mythologies too. In the Ramayana, the sage Valmiki observes Sita's son, Lava's absence, and concludes that some animal had carried him away. Believing that Sita would not be able to bear the loss of her son, Valmiki creates an identical son from kusha grass (some say it's not Bermuda Grass) and places him on Lava's cot. When Sita and Lava notice Lava's doppelganger, the sage explains what he had done, and she decides to raise the boy as Lava's twin, naming him Kusha.
