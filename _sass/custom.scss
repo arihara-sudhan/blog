@@ -9,3 +9,13 @@
 #post-page time {
   color: black;
 }
+
+.code {
+  background-color: #282c34;
+  color: lightgreen; 
+  font-family: 'Courier New', Courier, monospace;   	          padding: 0.3rem;
+  border-radius: 0.3rem;
+  overflow-x: auto;
+  white-space: pre;
+  margin: 0.3rem 0;
+}
