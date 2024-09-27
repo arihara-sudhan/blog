@@ -1,11 +1,11 @@
-We guys must have played The Bounce Game in Nokia 🎾
+We guys must have played The Bounce Game in Nokia!
 In fact, I could say like, it is the first adventurous game I have played!
 <img src="https://raw.githubusercontent.com/arihara-sudhan/blog/main/img/post_images/Debouncing/bounce.gif" alt="" width="100%"  style="border-radius: 0.3rem;">
 The ball there bounces once hits a wall!
 In Electronics, If we have a switch or a button, when we turn it on, it may bounce back and forth, unwantedly causing some electrical touches and we could see the Bulb being glowing and offing frequently. We can control such button design by something called Debouncer. If you guys have interest in Electronics, [here you go](https://youtu.be/9h5OuOCE-m8?si=eUq8JIXyMy5WBFgc) to explore The SR Latch which avoids the bouncing of switches!
 
 Now, let's come to our case!
-When a user clicks on a button multiple times accidentally or intentionally (😈), we may need to handle those cases! A Button click may induce an API invocation!
+When a user clicks on a button multiple times accidentally or intentionally(😈), we may need to handle those cases! A Button click may induce an API invocation!
 
 If he/she clicks 6 times in a second like the up and down motion of bee's wings, well! The API threshold limit will be exceeded and nothing we can do!
 Where is my button?
