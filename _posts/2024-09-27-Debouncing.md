@@ -47,6 +47,6 @@ Now, here is how we can implement the debouncing!
 
 AFTER 3 SECONDS -----> API Request Sent
 
-Hey Hey! We made it!
-
+Hey Hey! We made it! So, let's code it! 🙂
+<img src="https://raw.githubusercontent.com/arihara-sudhan/blog/main/img/post_images/Debouncing/debouncing.png" alt="" width="100%"  style="border-radius: 0.3rem;">
 It's applicable for something like the Input Boxes in React also! Where we set to perform something intensive for each changes! Remember! It's not only for API calls! It's for any intensive operations!
