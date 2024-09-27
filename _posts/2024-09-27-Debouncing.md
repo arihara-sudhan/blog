@@ -11,19 +11,19 @@ If he/she clicks 6 times in a second like the up and down motion of bee's wings,
 Where is my button?
 Here 🔘 is!
 
-🔘 is clicked -----> API Request Sent 	
+🔘 is clicked -----> API Request Sent<br> 	
 			<b>0.20 seconds</b>
 
-🔘 is clicked -----> API Request Sent
+🔘 is clicked -----> API Request Sent<br> 	
 			<b>0.20 seconds</b>
 
-🔘 is clicked -----> API Request Sent
+🔘 is clicked -----> API Request Sent<br> 	
 			<b>0.20 seconds</b>
 
-🔘 is clicked -----> API Request Sent
+🔘 is clicked -----> API Request Sent<br> 	
 			<b>0.20 seconds</b>
 
-🔘 is clicked -----> API Request Sent
+🔘 is clicked -----> API Request Sent<br> 	
 			<b>0.20 seconds</b>
 
 🔘 is clicked -----> <b>API LIMIT REACHED<b>
