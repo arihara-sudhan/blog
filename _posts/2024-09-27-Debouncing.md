@@ -12,21 +12,21 @@ Where is my button?
 Here 🔘 is!
 
 🔘 is clicked -----> API Request Sent 	
-			<h1 style="color: red">0.20 seconds</h1>
+			0.20 seconds
 
 🔘 is clicked -----> API Request Sent
-			<h1 style="color: red">0.20 seconds</h1>
+			0.20 seconds
 
 🔘 is clicked -----> API Request Sent
-			<h1 style="color: red">0.20 seconds</h1>
+			0.20 seconds
 
 🔘 is clicked -----> API Request Sent
-			<h1 style="color: red">0.20 seconds</h1>
+			0.20 seconds
 
 🔘 is clicked -----> API Request Sent
-			<h1 style="color: red">0.20 seconds</h1>
+			0.20 seconds
 
-🔘 is clicked -----> <h1 style="color: red">API LIMIT REACHED</h1>
+🔘 is clicked -----> API LIMIT REACHED
 
 So, how can we get rid of this? How can we control this bouncing effect? Actually, our UI buttons are working properly.. By bouncing, we mean this continuous invocations of API! So, how can we?
 Simple!
@@ -39,23 +39,23 @@ HERE ⌛️ is!
 Now, here is how we can implement the debouncing!
 
 🔘 is clicked ----> ⌛ SET FOR 3 SECONDS ----> API Request will be sent after 3 SECONDS<br>
-			<h1 style="color: red">0.20 seconds</h1>
+			0.20 seconds
    
 🔘 is clicked ----> Previous Timer is cleared & New ⌛ SET FOR 3 SECONDS ----> API Request will be sent after 3 SECS<br>
-			<h1 style="color: red">0.20 seconds</h1>
+			0.20 seconds
    
 🔘 is clicked ----> Previous Timer is cleared & New ⌛ SET FOR 3 SECONDS ----> API Request will be sent after 3 SECS<br>
-			<h1 style="color: red">0.20 seconds</h1>
+			0.20 seconds
    
 🔘 is clicked ----> Previous Timer is cleared & New ⌛ SET FOR 3 SECONDS ----> API Request will be sent after 3 SECS<br>
-			<h1 style="color: red">0.20 seconds</h1>
+			0.20 seconds
    
 🔘 is clicked ----> Previous Timer is cleared & New ⌛ SET FOR 3 SECONDS ----> API Request will be sent after 3 SECS<br>
-			<h1 style="color: red">0.20 seconds</h1>
+			0.20 seconds
    
 🔘 is clicked ----> Previous Timer is cleared & New ⌛ SET FOR 3 SECONDS ----> API Request will be sent after 3 SECS<br>
 
-AFTER 3 SECONDS -----> <h1 style="color: green">API Request Sent</h1>
+AFTER 3 SECONDS -----> API Request Sent
 
 Hey Hey! We made it! So, let's code it! 🙂
 <img src="https://raw.githubusercontent.com/arihara-sudhan/blog/main/img/post_images/Debouncing/debouncing.png" alt="" width="100%"  style="border-radius: 0.3rem;">
