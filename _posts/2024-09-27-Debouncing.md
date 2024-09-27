@@ -13,14 +13,19 @@ Here 🔘 is!
 
 🔘 is clicked -----> API Request Sent 	
 			0.20 seconds
+
 🔘 is clicked -----> API Request Sent
 			0.20 seconds
+
 🔘 is clicked -----> API Request Sent
 			0.21 seconds
+
 🔘 is clicked -----> API Request Sent
 			0.19 seconds
+
 🔘 is clicked -----> API Request Sent
 			0.20 seconds
+
 🔘 is clicked -----> API LIMIT REACHED
 
 So, how can we get rid of this? How can we control this bouncing effect? Actually, our UI buttons are working properly.. By bouncing, we mean this continuous invocations of API! So, how can we?
@@ -35,14 +40,19 @@ Now, here is how we can implement the debouncing!
 
 🔘 is clicked ----> ⌛ SET FOR 3 SECONDS ----> API Request will be sent after 3 SECONDS
 			0.20 seconds
+   
 🔘 is clicked ----> Previous Timer is cleared & New ⌛ SET FOR 3 SECONDS ----> API Request will be sent after 3 SECS
 			0.20 seconds
+   
 🔘 is clicked ----> Previous Timer is cleared & New ⌛ SET FOR 3 SECONDS ----> API Request will be sent after 3 SECS
 			0.20 seconds
+   
 🔘 is clicked ----> Previous Timer is cleared & New ⌛ SET FOR 3 SECONDS ----> API Request will be sent after 3 SECS
 			0.20 seconds
+   
 🔘 is clicked ----> Previous Timer is cleared & New ⌛ SET FOR 3 SECONDS ----> API Request will be sent after 3 SECS
 			0.20 seconds
+   
 🔘 is clicked ----> Previous Timer is cleared & New ⌛ SET FOR 3 SECONDS ----> API Request will be sent after 3 SECS
 
 AFTER 3 SECONDS -----> API Request Sent
