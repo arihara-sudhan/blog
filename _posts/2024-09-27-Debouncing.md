@@ -38,22 +38,22 @@ HERE ⌛️ is!
 
 Now, here is how we can implement the debouncing!
 
-🔘 is clicked ----> ⌛ SET FOR 3 SECONDS ----> API Request will be sent after 3 SECONDS
+🔘 is clicked ----> ⌛ SET FOR 3 SECONDS ----> API Request will be sent after 3 SECONDS<br>
 			<h1 style="color: red">0.20 seconds</h1>
    
-🔘 is clicked ----> Previous Timer is cleared & New ⌛ SET FOR 3 SECONDS ----> API Request will be sent after 3 SECS
+🔘 is clicked ----> Previous Timer is cleared & New ⌛ SET FOR 3 SECONDS ----> API Request will be sent after 3 SECS<br>
 			<h1 style="color: red">0.20 seconds</h1>
    
-🔘 is clicked ----> Previous Timer is cleared & New ⌛ SET FOR 3 SECONDS ----> API Request will be sent after 3 SECS
+🔘 is clicked ----> Previous Timer is cleared & New ⌛ SET FOR 3 SECONDS ----> API Request will be sent after 3 SECS<br>
 			<h1 style="color: red">0.20 seconds</h1>
    
-🔘 is clicked ----> Previous Timer is cleared & New ⌛ SET FOR 3 SECONDS ----> API Request will be sent after 3 SECS
+🔘 is clicked ----> Previous Timer is cleared & New ⌛ SET FOR 3 SECONDS ----> API Request will be sent after 3 SECS<br>
 			<h1 style="color: red">0.20 seconds</h1>
    
-🔘 is clicked ----> Previous Timer is cleared & New ⌛ SET FOR 3 SECONDS ----> API Request will be sent after 3 SECS
+🔘 is clicked ----> Previous Timer is cleared & New ⌛ SET FOR 3 SECONDS ----> API Request will be sent after 3 SECS<br>
 			<h1 style="color: red">0.20 seconds</h1>
    
-🔘 is clicked ----> Previous Timer is cleared & New ⌛ SET FOR 3 SECONDS ----> API Request will be sent after 3 SECS
+🔘 is clicked ----> Previous Timer is cleared & New ⌛ SET FOR 3 SECONDS ----> API Request will be sent after 3 SECS<br>
 
 AFTER 3 SECONDS -----> <h1 style="color: green">API Request Sent</h1>
 
