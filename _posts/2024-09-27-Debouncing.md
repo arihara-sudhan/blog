@@ -1,6 +1,6 @@
 We guys must have played The Bounce Game in Nokia 🎾
 In fact, I could say like, it is the first adventurous game I have played!
-
+<img src="" alt="" width="100%">
 The ball there bounces once hits a wall!
 In Electronics, If we have a switch or a button, when we turn it on, it may bounce back and forth, unwantedly causing some electrical touches and we could see the Bulb being glowing and offing frequently. We can control such button design by something called Debouncer. If you guys have interest in Electronics, [here you go](https://youtu.be/9h5OuOCE-m8?si=eUq8JIXyMy5WBFgc) to explore The SR Latch which avoids the bouncing of switches!
 
