@@ -12,21 +12,21 @@ Where is my button?
 Here 🔘 is!
 
 🔘 is clicked -----> API Request Sent 	
-			0.20 seconds
+			<h1 style="color: red">0.20 seconds</h1>
 
 🔘 is clicked -----> API Request Sent
-			0.20 seconds
+			<h1 style="color: red">0.20 seconds</h1>
 
 🔘 is clicked -----> API Request Sent
-			0.21 seconds
+			<h1 style="color: red">0.20 seconds</h1>
 
 🔘 is clicked -----> API Request Sent
-			0.19 seconds
+			<h1 style="color: red">0.20 seconds</h1>
 
 🔘 is clicked -----> API Request Sent
-			0.20 seconds
+			<h1 style="color: red">0.20 seconds</h1>
 
-🔘 is clicked -----> API LIMIT REACHED
+🔘 is clicked -----> <h1 style="color: red">API LIMIT REACHED</h1>
 
 So, how can we get rid of this? How can we control this bouncing effect? Actually, our UI buttons are working properly.. By bouncing, we mean this continuous invocations of API! So, how can we?
 Simple!
@@ -39,23 +39,23 @@ HERE ⌛️ is!
 Now, here is how we can implement the debouncing!
 
 🔘 is clicked ----> ⌛ SET FOR 3 SECONDS ----> API Request will be sent after 3 SECONDS
-			0.20 seconds
+			<h1 style="color: red">0.20 seconds</h1>
    
 🔘 is clicked ----> Previous Timer is cleared & New ⌛ SET FOR 3 SECONDS ----> API Request will be sent after 3 SECS
-			0.20 seconds
+			<h1 style="color: red">0.20 seconds</h1>
    
 🔘 is clicked ----> Previous Timer is cleared & New ⌛ SET FOR 3 SECONDS ----> API Request will be sent after 3 SECS
-			0.20 seconds
+			<h1 style="color: red">0.20 seconds</h1>
    
 🔘 is clicked ----> Previous Timer is cleared & New ⌛ SET FOR 3 SECONDS ----> API Request will be sent after 3 SECS
-			0.20 seconds
+			<h1 style="color: red">0.20 seconds</h1>
    
 🔘 is clicked ----> Previous Timer is cleared & New ⌛ SET FOR 3 SECONDS ----> API Request will be sent after 3 SECS
-			0.20 seconds
+			<h1 style="color: red">0.20 seconds</h1>
    
 🔘 is clicked ----> Previous Timer is cleared & New ⌛ SET FOR 3 SECONDS ----> API Request will be sent after 3 SECS
 
-AFTER 3 SECONDS -----> API Request Sent
+AFTER 3 SECONDS -----> <h1 style="color: green">API Request Sent</h1>
 
 Hey Hey! We made it! So, let's code it! 🙂
 <img src="https://raw.githubusercontent.com/arihara-sudhan/blog/main/img/post_images/Debouncing/debouncing.png" alt="" width="100%"  style="border-radius: 0.3rem;">
