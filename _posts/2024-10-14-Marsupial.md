@@ -13,11 +13,12 @@ Combining these words, "marsupial" could be interpreted as "animals that suckle 
 But I didn't stop there! When I searched for the kangaroo, a well-known marsupial, I found an image that fits my theory perfectly.
 
 Additionally, I came across a Reddit video showing how marsupials breastfeed continuously while in their mother's pouch.
-<video>
+<video controls style="width: 100%;">
   <source src="https://github.com/arihara-sudhan/blog/blob/c436f93b7b72a5cd9f9d67e3130fd002efe1117b/img/post_images/Marsupial/marsupial.mp4" type="video/mp4">
+  Your browser does not support the video tag.
 </video>
-The word "marsupial" makes perfect sense when viewed through the lens of Tamil etymology.
 
+The word "marsupial" makes perfect sense when viewed through the lens of Tamil etymology.
 But how? I believe there could be a missing historical connection linking Tamil Nadu, Africa, and Australia!
 
 Meanwhile, Ancient trade routes between Tamil Kings and distant parts of the world, including Africa, Australia are well-documented, so it’s an area that invites further exploration.
