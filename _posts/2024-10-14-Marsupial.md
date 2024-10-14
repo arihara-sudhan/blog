@@ -1,4 +1,5 @@
 In my childhood, I used to watch the cartoon episodes of Marsupilami. A marsupial is defined as an animal that carries its baby in a pouch on the mother's stomach. In the Marsupilami cartoon, there is a fictional species called Marsupilami.
+<img src="https://github.com/arihara-sudhan/blog/blob/main/img/post_images/Marsupial/marsupilami.jpg?raw=true" width="100%" alt="">
 
 Usually, marsupials are native to Australia. My fondness for words has given me the ability to find some that resemble each other and somehow relate them! I love words! If you'd like to learn new words daily, kindly check here.
 
