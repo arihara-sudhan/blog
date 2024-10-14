@@ -11,16 +11,12 @@ I split the word "marsupial" into two parts: "Mar" and "Supial." In Tamil, "Mar"
 Combining these words, "marsupial" could be interpreted as "animals that suckle at the breast." This interpretation seemed unusual but fascinating, despite its apparent disconnect from the standard meaning of "marsupial."
 
 But I didn't stop there! When I searched for the kangaroo, a well-known marsupial, I found an image that fits my theory perfectly.
-
 <img src="https://raw.githubusercontent.com/arihara-sudhan/blog/dbf0e8a82926e838be3715d18d4bdb0373bb115d/img/post_images/Marsupial/newborn_marsupial_illustration.webp" width="100%" alt="">
-
 Additionally, I came across a Reddit video showing how marsupials breastfeed continuously while in their mother's pouch.
-
 <video controls style="width: 100%;">
   <source src="https://github.com/arihara-sudhan/blog/blob/c436f93b7b72a5cd9f9d67e3130fd002efe1117b/img/post_images/Marsupial/marsupial.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-
 The word "marsupial" makes perfect sense when viewed through the lens of Tamil etymology.
 But how? I believe there could be a missing historical connection linking Tamil Nadu, Africa, and Australia!
 
