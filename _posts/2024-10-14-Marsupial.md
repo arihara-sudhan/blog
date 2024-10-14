@@ -5,6 +5,7 @@ Usually, marsupials are native to Australia. My fondness for words has given me 
 When I first heard the word "marsupial," after gaining some proficiency in writing Tamil poems, it sounded oddly familiar—almost like a Tamil word! But how could that be? It’s an Australian term for an Australian animal.
 
 I love discovering the etymology of words! According to its etymology, "marsupial" means "resembling a pouch." However, I wasn’t fully satisfied with that explanation, as I was guessing something else.
+<img src="https://github.com/arihara-sudhan/blog/blob/main/img/post_images/Marsupial/marsupial_etymology.png?raw=true" width="100%" alt="">
 
 I split the word "marsupial" into two parts: "Mar" and "Supial." In Tamil, "Mar" (மார்) means breast, and in certain dialects of southern Tamil Nadu, "Supial" (சூப்பியல்) refers to the plural of animals that suckle.
 
