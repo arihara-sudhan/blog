@@ -2,7 +2,7 @@ In my childhood, I used to watch the cartoon episodes of Marsupilami. A marsupia
 
 <img src="https://github.com/arihara-sudhan/blog/blob/main/img/post_images/Marsupial/marsupilami.jpg?raw=true" width="100%" alt="" style="border-radius: 0.5rem">
 
-Usually, marsupials are native to Australia. My fondness for words has given me the ability to find some that resemble each other and somehow relate them! I love words! If you'd like to learn new words daily, kindly check here.
+Usually, marsupials are native to Australia. My fondness for words has given me the ability to find some that resemble each other and somehow relate them! I love words! If you'd like to learn new words daily, kindly check <a href="https://arihara-sudhan.github.io/puthu-words">here</a>.
 
 When I first heard the word "marsupial," after gaining some proficiency in writing Tamil poems, it sounded oddly familiar—almost like a Tamil word! But how could that be? It’s an Australian term for an Australian animal.
 
