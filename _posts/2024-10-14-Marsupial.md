@@ -11,7 +11,7 @@ I split the word "marsupial" into two parts: "Mar" and "Supial." In Tamil, "Mar"
 Combining these words, "marsupial" could be interpreted as "animals that suckle at the breast." This interpretation seemed unusual but fascinating, despite its apparent disconnect from the standard meaning of "marsupial."
 
 But I didn't stop there! When I searched for the kangaroo, a well-known marsupial, I found an image that fits my theory perfectly.
-<img src="https://raw.githubusercontent.com/arihara-sudhan/blog/dbf0e8a82926e838be3715d18d4bdb0373bb115d/img/post_images/Marsupial/newborn_marsupial_illustration.webp" width="100%" alt="">
+<img src="https://raw.githubusercontent.com/arihara-sudhan/blog/refs/heads/main/img/post_images/Marsupial/newborn_marsupial_illustration.webp" width="100%" alt="">
 Additionally, I came across a Reddit video showing how marsupials breastfeed continuously while in their mother's pouch.
 
 <video width="100%" height="auto" controls>
