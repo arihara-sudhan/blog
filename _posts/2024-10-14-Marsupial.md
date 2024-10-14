@@ -10,7 +10,7 @@ I love discovering the etymology of words! According to its etymology, "marsupia
 
 I split the word "marsupial" into two parts: "Mar" and "Supial." In Tamil, "Mar" (மார்) means breast, and in certain dialects of southern Tamil Nadu, "Supial" (சூப்பியல்) refers to the plural of animals that suckle.
 
-Combining these words, "marsupial" could be interpreted as "animals that suckle at the breast." This interpretation seemed unusual but fascinating, despite its apparent disconnect from the standard meaning of "marsupial."
+Combining these words, "marsupial" could be interpreted as <mark>"animals that suckle at the breast."</mark> This interpretation seemed unusual but fascinating, despite its apparent disconnect from the standard meaning of "marsupial."
 
 But I didn't stop there! When I searched for the kangaroo, a well-known marsupial, I found an image that fits my theory perfectly.
 <img src="https://raw.githubusercontent.com/arihara-sudhan/blog/refs/heads/main/img/post_images/Marsupial/newborn_marsupial_illustration.webp" width="100%" alt="">
