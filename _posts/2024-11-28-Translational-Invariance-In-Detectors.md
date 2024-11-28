@@ -3,8 +3,9 @@ It became the RoI in my object detection work! Seeing my shaky hands on the bus 
 
 <video width="100%" height="auto" controls>
   <source src="videos/TInvarianceInDet/vid.mp4" type="video/mp4">
-Colocynth/KumuttiKaay
+GHopper Detected
 </video> 
+
 
 The wide categories of Object Detectors are, 
 1. Two Stage Detectors (RCNN, Fast RCNN, Faster RCNN and etc,.)
