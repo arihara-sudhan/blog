@@ -1,11 +1,7 @@
 I got this bladder grasshopper in a Bus heading from Tenkasi to Tirunelveli.
 It became the RoI in my object detection work! Seeing my shaky hands on the bus and the grasshopper balancing, I wondered how object detection algorithms handle translational variance 🤔
 
-<video width="100%" height="auto" controls>
-  <source src="videos/TInvarianceInDet/vid.mp4" type="video/mp4">
-GHopper Detected
-</video> 
-
+<img src="https://miro.medium.com/v2/resize:fit:1280/format:webp/1*MphTpJqFqzXV6b6Wh8IUpg.gif" width="100%"/>
 
 The wide categories of Object Detectors are, 
 1. Two Stage Detectors (RCNN, Fast RCNN, Faster RCNN and etc,.)
