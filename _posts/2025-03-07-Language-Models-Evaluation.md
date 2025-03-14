@@ -1,6 +1,10 @@
 The Interesting Evaluation of Language Models! 🐲
 
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7303295816616615936?compact=1" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7303295816616615936?compact=1" 
+    style="width: 100%; aspect-ratio: 16 / 9; border: none;" 
+    allowfullscreen 
+    title="Embedded post">
+</iframe>
 
 I always wondered about this scene in Jackie Chan Adventures (Season 3, Episode 15).
 
