@@ -1,5 +1,7 @@
 The Interesting Evaluation of Language Models! 🐲
 
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7303295816616615936?compact=1" height="399" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
 I always wondered about this scene in Jackie Chan Adventures (Season 3, Episode 15).
 
 In this episode, Daolon Wong (Maayaavi) re-enters the Netherworld, hoping that Shendu will keep his promise to grant him the power of combustion. However, when Shendu is reborn on Earth, he sneers at Wong and explains that, although he is a noble dragon, he is also a Demon Sorcerer, thus, not known for keeping promises. 😂
