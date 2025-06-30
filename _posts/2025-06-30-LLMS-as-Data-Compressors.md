@@ -1,5 +1,3 @@
-## Can Language Models Become the Ultimate Data Compressors? A Look at Memorization and Potential
-
 We've all experienced the frustration of large file sizes, whether it's trying to share a high-resolution video or store our ever-growing photo libraries. Traditional data compression techniques have come a long way, but certain data types like audio and video remain challenging to squeeze down without significant loss of quality. This got me thinking: what if we approached compression from a completely different angle, leveraging the power of large language models (LLMs)?
 
 <img src="img/post_images/LLM-AS-COMPRESSORS/Screenshot 2025-06-30 120753.png" alt="BEAVOR" width="100%">
