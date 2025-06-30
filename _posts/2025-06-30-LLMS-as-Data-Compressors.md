@@ -8,10 +8,7 @@ This idea resonates strongly with the findings of a fascinating research paper t
 What's particularly insightful is their approach to measuring memorization using concepts from **Kolmogorov complexity** and **Shannon information theory**. Essentially, they suggest that if a model can assign a high probability (and thus a shorter encoded length) to a piece of data, it has, in a way, "compressed" it. This "compression rate," estimated through model likelihoods, becomes a proxy for how much the model has memorized.
 
 The paper's findings reveal some crucial points:
-
-* **LLMs have a measurable "capacity" for memorization**, estimated around 3.6 bits per parameter for models in the GPT family.
-* Models tend to memorize data until they reach this capacity, after which they start to generalize more effectively.
-* The ability of a model to "compress" seen data accurately highlights its internal representation of that information.
+**LLMs have a measurable "capacity" for memorization**, estimated around 3.6 bits per parameter for models in the GPT family. Models tend to memorize data until they reach this capacity, after which they start to generalize more effectively. The ability of a model to "compress" seen data accurately highlights its internal representation of that information.
 
 This connection between memorization and the efficient representation of data opens up exciting possibilities beyond just understanding model behavior. Could we potentially train large models on vast datasets of audio, video, or other complex data types, not just for generative tasks, but also for highly efficient compression?
 
