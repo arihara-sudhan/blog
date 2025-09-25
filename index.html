@@ -36,7 +36,7 @@
             <!-- About Page -->
             <div id="about-page" class="page">
                 <h2>About This Blog</h2>
-                <p>This is a simple blog built with HTML, CSS, and JavaScript. It supports markdown posts, unique URLs, commenting, and liking features.</p>
+                <p>This is a simple blog built with HTML, CSS, and JavaScript. It supports markdown posts, unique URLs, and commenting via GitHub Discussions.</p>
             </div>
 
             <!-- Individual Post Page -->
@@ -54,12 +54,6 @@
                     <!-- Post content will be loaded here -->
                 </article>
 
-                <div class="post-actions">
-                    <button id="like-btn" class="action-btn">
-                        <span id="like-icon">♥</span>
-                        <span id="like-count">0</span>
-                    </button>
-                </div>
 
                 <div class="comments-section">
                     <h3>Comments</h3>
@@ -82,23 +76,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
     
-    <!-- Giscus Comments -->
-    <script src="https://giscus.app/client.js"
-            data-repo="arihara-sudhan/blog"
-            data-repo-id="R_kgDOHjabc123"
-            data-category="General"
-            data-category-id="DIC_kwDOHjabc123"
-            data-mapping="pathname"
-            data-strict="0"
-            data-reactions-enabled="1"
-            data-emit-metadata="0"
-            data-input-position="bottom"
-            data-theme="light"
-            data-lang="en"
-            data-loading="lazy"
-            crossorigin="anonymous"
-            async>
-    </script>
+    <!-- Giscus Comments - Will be loaded dynamically per post -->
     
     <script src="script.js"></script>
 </body>

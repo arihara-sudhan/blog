@@ -4,7 +4,6 @@ class BlogApp {
         this.posts = [];
         this.currentPost = null;
         this.comments = {};
-        this.likes = {};
         
         this.init();
     }
@@ -30,17 +29,11 @@ class BlogApp {
             this.comments = JSON.parse(savedComments);
         }
 
-        // Load likes data
-        const savedLikes = localStorage.getItem('blogLikes');
-        if (savedLikes) {
-            this.likes = JSON.parse(savedLikes);
-        }
     }
 
     saveData() {
         localStorage.setItem('blogPosts', JSON.stringify(this.posts));
         localStorage.setItem('blogComments', JSON.stringify(this.comments));
-        localStorage.setItem('blogLikes', JSON.stringify(this.likes));
     }
 
     // Event Listeners
@@ -55,11 +48,6 @@ class BlogApp {
         });
 
         // Giscus handles comments automatically
-
-        // Like button
-        document.getElementById('like-btn').addEventListener('click', () => {
-            this.toggleLike();
-        });
 
         // Back button
         document.querySelector('.back-link').addEventListener('click', (e) => {
@@ -138,12 +126,6 @@ class BlogApp {
                     <p>${post.excerpt}</p>
                     <div class="post-card-meta">
                         <span>${new Date(post.date).toLocaleDateString()}</span>
-                        <div class="post-card-actions">
-                            <span class="action-btn">
-                                <span>♥</span>
-                                <span>${this.getLikeCount(post.id)}</span>
-                            </span>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -261,9 +243,6 @@ class BlogApp {
         const htmlContent = marked.parse(post.content);
         document.getElementById('post-content').innerHTML = htmlContent;
         
-        // Update like button
-        this.updateLikeButton(post.id);
-        
         // Initialize Giscus comments
         this.initGiscus();
         
@@ -297,19 +276,19 @@ class BlogApp {
             // Clear existing giscus
             giscusElement.innerHTML = '';
             
-            // Create new giscus instance for this post
+            // Create new giscus instance for this post with unique term
             const script = document.createElement('script');
             script.src = 'https://giscus.app/client.js';
             script.setAttribute('data-repo', 'arihara-sudhan/blog');
-            script.setAttribute('data-repo-id', 'R_kgDOHjabc123');
+            script.setAttribute('data-repo-id', 'R_kgDOP23WIg');
             script.setAttribute('data-category', 'General');
-            script.setAttribute('data-category-id', 'DIC_kwDOHjabc123');
-            script.setAttribute('data-mapping', 'pathname');
-            script.setAttribute('data-term', `Blog Post: ${this.currentPost.title}`);
+            script.setAttribute('data-category-id', 'DIC_kwDOP23WIs4Cv48x');
+            script.setAttribute('data-mapping', 'specific');
+            script.setAttribute('data-term', `Blog Post: ${this.currentPost.title} (${this.currentPost.id})`);
             script.setAttribute('data-reactions-enabled', '1');
             script.setAttribute('data-emit-metadata', '0');
-            script.setAttribute('data-input-position', 'bottom');
-            script.setAttribute('data-theme', 'light');
+            script.setAttribute('data-input-position', 'top');
+            script.setAttribute('data-theme', 'preferred_color_scheme');
             script.setAttribute('data-lang', 'en');
             script.setAttribute('data-loading', 'lazy');
             script.setAttribute('crossorigin', 'anonymous');
@@ -326,69 +305,6 @@ class BlogApp {
         }
     }
 
-    // Likes System
-    toggleLike() {
-        if (!this.currentPost) return;
-
-        const postId = this.currentPost.id;
-        const userLikes = this.getUserLikes();
-        
-        if (userLikes.includes(postId)) {
-            // Unlike
-            this.likes[postId] = Math.max(0, (this.likes[postId] || 0) - 1);
-            this.removeUserLike(postId);
-        } else {
-            // Like
-            this.likes[postId] = (this.likes[postId] || 0) + 1;
-            this.addUserLike(postId);
-        }
-
-        this.saveData();
-        this.updateLikeButton(postId);
-        
-        // Also update the home page if it's visible
-        this.renderPosts();
-    }
-
-    getUserLikes() {
-        const saved = localStorage.getItem('userLikes');
-        return saved ? JSON.parse(saved) : [];
-    }
-
-    addUserLike(postId) {
-        const userLikes = this.getUserLikes();
-        if (!userLikes.includes(postId)) {
-            userLikes.push(postId);
-            localStorage.setItem('userLikes', JSON.stringify(userLikes));
-        }
-    }
-
-    removeUserLike(postId) {
-        const userLikes = this.getUserLikes();
-        const index = userLikes.indexOf(postId);
-        if (index > -1) {
-            userLikes.splice(index, 1);
-            localStorage.setItem('userLikes', JSON.stringify(userLikes));
-        }
-    }
-
-    getLikeCount(postId) {
-        return this.likes[postId] || 0;
-    }
-
-    updateLikeButton(postId) {
-        const likeBtn = document.getElementById('like-btn');
-        const likeIcon = document.getElementById('like-icon');
-        const likeCount = document.getElementById('like-count');
-        
-        const isLiked = this.getUserLikes().includes(postId);
-        const count = this.getLikeCount(postId);
-        
-        likeIcon.textContent = isLiked ? '♥' : '♡';
-        likeCount.textContent = count;
-        
-        likeBtn.classList.toggle('liked', isLiked);
-    }
 
     // Utility Functions
     escapeHtml(text) {
