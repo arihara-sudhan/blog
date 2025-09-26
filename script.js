@@ -123,7 +123,7 @@ class BlogApp {
         
         if (post && !post.content) {
             try {
-                const response = await fetch(`posts/${postId}.md`);
+                const response = await fetch(`https://raw.githubusercontent.com/arihara-sudhan/blog/main/posts/${postId}.md`);
                 if (response.ok) {
                     const content = await response.text();
                     const parsedPost = this.parseMarkdownPost(content, postId);
