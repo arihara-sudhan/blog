@@ -111,15 +111,15 @@ body {
 .post-card {
     background: white;
     border-radius: 1vw;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border: 1px solid #000000;
     overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease;
     cursor: pointer;
 }
 
 .post-card:hover {
     transform: translateY(-0.5vw);
-    box-shadow: 0 8px 15px rgba(0,0,0,0.15);
+    border: 2px solid #000000;
 }
 
 .post-card-image {
