@@ -1,12 +1,10 @@
-// GitHub Issues-based Comment System
 class GitHubComments {
     constructor(repoOwner, repoName) {
-        this.repoOwner = repoOwner; // Your GitHub username
-        this.repoName = repoName;   // Your blog repository name
+        this.repoOwner = repoOwner;
+        this.repoName = repoName;
         this.apiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/issues`;
     }
 
-    // Create a GitHub issue for a blog post (run this once per post)
     async createPostIssue(postId, postTitle) {
         const issueData = {
             title: `Blog Post: ${postTitle}`,
@@ -26,14 +24,13 @@ class GitHubComments {
 
             if (response.ok) {
                 const issue = await response.json();
-                return issue.number; // This is the issue number for comments
+                return issue.number;
             }
         } catch (error) {
             console.error('Error creating GitHub issue:', error);
         }
     }
 
-    // Get comments for a blog post
     async getComments(issueNumber) {
         try {
             const response = await fetch(`${this.apiUrl}/${issueNumber}/comments`);
@@ -54,7 +51,6 @@ class GitHubComments {
         return [];
     }
 
-    // Get like count (GitHub issue reactions)
     async getLikeCount(issueNumber) {
         try {
             const response = await fetch(`${this.apiUrl}/${issueNumber}/reactions`);
@@ -68,7 +64,6 @@ class GitHubComments {
         return 0;
     }
 
-    // Add a like (requires GitHub token)
     async addLike(issueNumber, token) {
         try {
             const response = await fetch(`${this.apiUrl}/${issueNumber}/reactions`, {
@@ -89,12 +84,10 @@ class GitHubComments {
         }
     }
 
-    // Get GitHub issue URL for commenting
     getCommentUrl(issueNumber) {
         return `https://github.com/${this.repoOwner}/${this.repoName}/issues/${issueNumber}`;
     }
 
-    // Render comments with GitHub styling
     renderComments(comments) {
         return comments.map(comment => `
             <div class="comment github-comment">
@@ -109,7 +102,6 @@ class GitHubComments {
         `).join('');
     }
 
-    // Simple markdown to HTML converter
     markdownToHtml(text) {
         return text
             .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
@@ -119,6 +111,3 @@ class GitHubComments {
     }
 }
 
-// Usage example:
-// const githubComments = new GitHubComments('yourusername', 'your-blog-repo');
-// const comments = await githubComments.getComments(issueNumber);

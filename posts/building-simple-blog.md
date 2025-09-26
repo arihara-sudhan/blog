@@ -5,8 +5,6 @@ author: "Admin"
 image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=400&fit=crop"
 ---
 
-# Building a Simple Blog with HTML, CSS, and JavaScript
-
 In this post, I'll walk you through the process of creating a simple yet functional blog using just HTML, CSS, and JavaScript - no complex frameworks required!
 
 ## Why Keep It Simple?

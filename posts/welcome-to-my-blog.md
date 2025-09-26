@@ -5,8 +5,6 @@ author: "Admin"
 image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&h=400&fit=crop"
 ---
 
-# Welcome to My Blog
-
 Welcome to my personal blog! I'm excited to share my thoughts, experiences, and insights with you through this simple yet powerful blogging platform.
 
 ## What You'll Find Here

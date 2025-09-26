@@ -1,4 +1,3 @@
-// Blog Application JavaScript
 class BlogApp {
     constructor() {
         this.posts = [];
@@ -15,15 +14,12 @@ class BlogApp {
         this.loadPosts();
     }
 
-    // Data Management
     loadData() {
-        // Load posts data
         const savedPosts = localStorage.getItem('blogPosts');
         if (savedPosts) {
             this.posts = JSON.parse(savedPosts);
         }
 
-        // Load comments data
         const savedComments = localStorage.getItem('blogComments');
         if (savedComments) {
             this.comments = JSON.parse(savedComments);
@@ -36,9 +32,7 @@ class BlogApp {
         localStorage.setItem('blogComments', JSON.stringify(this.comments));
     }
 
-    // Event Listeners
     setupEventListeners() {
-        // Navigation
         document.querySelectorAll('.nav-link').forEach(link => {
             link.addEventListener('click', (e) => {
                 e.preventDefault();
@@ -47,16 +41,13 @@ class BlogApp {
             });
         });
 
-        // Giscus handles comments automatically
 
-        // Back button
         document.querySelector('.back-link').addEventListener('click', (e) => {
             e.preventDefault();
             this.navigateToPage('home');
         });
     }
 
-    // Routing
     handleRouting() {
         const hash = window.location.hash.substring(1);
         
@@ -71,15 +62,12 @@ class BlogApp {
     }
 
     navigateToPage(page) {
-        // Update navigation
         document.querySelectorAll('.nav-link').forEach(link => {
             link.classList.remove('active');
             if (link.dataset.page === page) {
                 link.classList.add('active');
             }
         });
-
-        // Show appropriate page
         document.querySelectorAll('.page').forEach(p => {
             p.classList.remove('active');
         });
@@ -93,10 +81,8 @@ class BlogApp {
         }
     }
 
-    // Posts Management
     async loadPosts() {
         try {
-            // Try to load posts from markdown files
             const response = await fetch('posts.json');
             if (response.ok) {
                 const postsData = await response.json();
@@ -135,14 +121,12 @@ class BlogApp {
     async showPost(postId) {
         let post = this.posts.find(p => p.id === postId);
         
-        // Always load the markdown content, even if we have metadata
         if (post && !post.content) {
             try {
                 const response = await fetch(`posts/${postId}.md`);
                 if (response.ok) {
                     const content = await response.text();
                     const parsedPost = this.parseMarkdownPost(content, postId);
-                    // Merge the loaded content with existing metadata
                     post.content = parsedPost.content;
                     post.title = parsedPost.title || post.title;
                     post.date = parsedPost.date || post.date;
@@ -178,7 +162,6 @@ class BlogApp {
         let image = '';
         let author = 'Admin';
         
-        // Parse frontmatter if present
         if (lines[0].startsWith('---')) {
             let i = 1;
             while (i < lines.length && !lines[i].startsWith('---')) {
@@ -197,7 +180,6 @@ class BlogApp {
             content = lines.slice(i + 1).join('\n');
         }
 
-        // If no title found, try to extract from first heading
         if (!title) {
             const titleMatch = content.match(/^#\s+(.+)$/m);
             if (titleMatch) {
@@ -206,7 +188,6 @@ class BlogApp {
             }
         }
 
-        // Generate excerpt
         const excerpt = this.generateExcerpt(content);
 
         return {
@@ -221,7 +202,6 @@ class BlogApp {
     }
 
     generateExcerpt(content) {
-        // Remove markdown syntax and get first 150 characters
         const plainText = content
             .replace(/^#+\s+/gm, '')
             .replace(/\*\*(.*?)\*\*/g, '$1')
@@ -236,17 +216,12 @@ class BlogApp {
 
     renderPost(post) {
         document.getElementById('post-title').textContent = post.title;
-        document.getElementById('post-date').textContent = new Date(post.date).toLocaleDateString();
-        document.getElementById('post-author').textContent = `By ${post.author}`;
         
-        // Render markdown content
         const htmlContent = marked.parse(post.content);
         document.getElementById('post-content').innerHTML = htmlContent;
         
-        // Initialize Giscus comments
         this.initGiscus();
         
-        // Show post page
         document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
         document.getElementById('post-page').classList.add('active');
     }
@@ -254,29 +229,22 @@ class BlogApp {
     navigateToPost(postId) {
         window.location.hash = `post/${postId}`;
         
-        // Update navigation
         document.querySelectorAll('.nav-link').forEach(link => {
             link.classList.remove('active');
         });
     }
 
-    // Giscus Comments System
     initGiscus() {
-        // Giscus will automatically load when the script is included
-        // We just need to configure it per post
         this.setupGiscusForPost();
     }
 
     setupGiscusForPost() {
         if (!this.currentPost) return;
 
-        // Update the Giscus configuration for this specific post
         const giscusElement = document.querySelector('#giscus-comments');
         if (giscusElement) {
-            // Clear existing giscus
             giscusElement.innerHTML = '';
             
-            // Create new giscus instance for this post with unique term
             const script = document.createElement('script');
             script.src = 'https://giscus.app/client.js';
             script.setAttribute('data-repo', 'arihara-sudhan/blog');
@@ -288,7 +256,7 @@ class BlogApp {
             script.setAttribute('data-reactions-enabled', '1');
             script.setAttribute('data-emit-metadata', '0');
             script.setAttribute('data-input-position', 'top');
-            script.setAttribute('data-theme', 'preferred_color_scheme');
+            script.setAttribute('data-theme', 'light');
             script.setAttribute('data-lang', 'en');
             script.setAttribute('data-loading', 'lazy');
             script.setAttribute('crossorigin', 'anonymous');
@@ -297,7 +265,6 @@ class BlogApp {
             giscusElement.appendChild(script);
         }
 
-        // Update the GitHub discussion link
         const discussionLink = document.getElementById('github-discussion-link');
         if (discussionLink) {
             discussionLink.href = `https://github.com/arihara-sudhan/blog/discussions`;
@@ -306,7 +273,6 @@ class BlogApp {
     }
 
 
-    // Utility Functions
     escapeHtml(text) {
         const div = document.createElement('div');
         div.textContent = text;
@@ -314,20 +280,17 @@ class BlogApp {
     }
 }
 
-// Initialize the blog app when DOM is loaded
 let blogApp;
 document.addEventListener('DOMContentLoaded', () => {
     blogApp = new BlogApp();
 });
 
-// Handle browser back/forward buttons
 window.addEventListener('popstate', () => {
     if (blogApp) {
         blogApp.handleRouting();
     }
 });
 
-// Handle hash changes
 window.addEventListener('hashchange', () => {
     if (blogApp) {
         blogApp.handleRouting();
