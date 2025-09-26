@@ -118,8 +118,6 @@ body {
 }
 
 .post-card:hover {
-    transform: translateY(-0.5vw);
-    border: 2px solid #000000;
 }
 
 .post-card-image {
