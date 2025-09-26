@@ -5,15 +5,15 @@
       "title": "Welcome to My Blog",
       "excerpt": "Welcome to my personal blog! I'm excited to share my thoughts, experiences, and insights with you through this simple yet powerful blogging platform.",
       "date": "2024-01-15",
-      "author": "Admin",
-      "image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&h=400&fit=crop"
+      "author": "Ari",
+      "image": "static/clover-1.png"
     },
     {
       "id": "building-simple-blog",
       "title": "Building a Simple Blog with HTML, CSS, and JavaScript",
       "excerpt": "In this post, I'll walk you through the process of creating a simple yet functional blog using just HTML, CSS, and JavaScript - no complex frameworks required!",
       "date": "2024-01-20",
-      "author": "Admin",
+      "author": "Ari",
       "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=400&fit=crop"
     },
     {
@@ -21,8 +21,192 @@
       "title": "Responsive Design with CSS Viewport Units",
       "excerpt": "In this post, I'll explore the power of CSS viewport units (vw, vh) for creating truly responsive designs that adapt seamlessly to any screen size.",
       "date": "2024-01-25",
-      "author": "Admin",
+      "author": "Ari",
       "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=400&fit=crop"
+    },
+    {
+      "id": "2024-01-03-Diamond-Head",
+      "title": "Diamond Head",
+      "excerpt": "Exploring the geological wonder and cultural significance of Diamond Head.",
+      "date": "2024-01-03",
+      "author": "Ari",
+      "image": "static/covers/Diamond Head.jpg"
+    },
+    {
+      "id": "2024-02-16-The-Peacock-Legend",
+      "title": "The Peacock Legend",
+      "excerpt": "A deep dive into the mythological and cultural significance of the peacock.",
+      "date": "2024-02-16",
+      "author": "Ari",
+      "image": "static/covers/The Peacock Legend.jpg"
+    },
+    {
+      "id": "2024-03-18-அரியின்-கவிதைகள்-(1)",
+      "title": "அரியின் கவிதைகள் (1)",
+      "excerpt": "A collection of Tamil poetry exploring themes of nature, love, and introspection.",
+      "date": "2024-03-18",
+      "author": "Ari",
+      "image": "static/covers/அரியின் கவிதைகள் (1).jpg"
+    },
+    {
+      "id": "2024-03-20-Essence of React",
+      "title": "Essence of React",
+      "excerpt": "Understanding the core concepts and philosophy behind React development.",
+      "date": "2024-03-20",
+      "author": "Ari",
+      "image": "static/covers/Essence of React.jpg"
+    },
+    {
+      "id": "2024-03-22-Colocynth",
+      "title": "Colocynth",
+      "excerpt": "Exploring the medicinal and botanical properties of the colocynth plant.",
+      "date": "2024-03-22",
+      "author": "Ari",
+      "image": "static/covers/Colocynth.jpg"
+    },
+    {
+      "id": "2024-04-01-Key-Knows",
+      "title": "Key Knows",
+      "excerpt": "Insights into the fundamental principles that unlock understanding.",
+      "date": "2024-04-01",
+      "author": "Ari",
+      "image": "static/covers/Key Knows.jpg"
+    },
+    {
+      "id": "2024-04-29-Few-FewShots",
+      "title": "Few FewShots",
+      "excerpt": "Exploring few-shot learning techniques in machine learning and AI.",
+      "date": "2024-04-29",
+      "author": "Ari",
+      "image": "static/covers/Few Fewshots.jpg"
+    },
+    {
+      "id": "2024-05-03-கூப்பனிப்பு",
+      "title": "கூப்பனிப்பு",
+      "excerpt": "A Tamil exploration of cultural traditions and social practices.",
+      "date": "2024-05-03",
+      "author": "Ari",
+      "image": "static/covers/கூப்பனிப்பு.jpg"
+    },
+    {
+      "id": "2024-05-28-Attention-vs-Convolution",
+      "title": "Attention vs Convolution",
+      "excerpt": "Comparing attention mechanisms and convolutional neural networks in deep learning.",
+      "date": "2024-05-28",
+      "author": "Ari",
+      "image": "static/covers/Attention Vs Convolution.jpg"
+    },
+    {
+      "id": "2024-07-01-Etymology-of-Bamboo",
+      "title": "Etymology of Bamboo",
+      "excerpt": "Tracing the linguistic origins and cultural significance of bamboo across languages.",
+      "date": "2024-07-01",
+      "author": "Ari",
+      "image": "static/covers/Etymology Of Bamboo.jpg"
+    },
+    {
+      "id": "2024-07-18-Bermuda-Grass",
+      "title": "Bermuda Grass",
+      "excerpt": "Understanding the ecological and agricultural importance of Bermuda grass.",
+      "date": "2024-07-18",
+      "author": "Ari",
+      "image": "static/covers/Bermuda Grass.jpg"
+    },
+    {
+      "id": "2024-08-07-El-And-Al",
+      "title": "El And Al",
+      "excerpt": "Exploring the linguistic and cultural connections between Arabic and Spanish.",
+      "date": "2024-08-07",
+      "author": "Ari",
+      "image": "static/covers/El And Al.jpg"
+    },
+    {
+      "id": "2024-09-27-Debouncing",
+      "title": "Debouncing",
+      "excerpt": "Understanding debouncing techniques in programming and user interface design.",
+      "date": "2024-09-27",
+      "author": "Ari",
+      "image": "static/covers/Debouncing.jpg"
+    },
+    {
+      "id": "2024-10-14-Marsupial",
+      "title": "Marsupial",
+      "excerpt": "Exploring the unique reproductive biology and evolution of marsupial mammals.",
+      "date": "2024-10-14",
+      "author": "Ari",
+      "image": "static/covers/Marsupial.jpg"
+    },
+    {
+      "id": "2024-11-28-Translational-Invariance-In-Detectors",
+      "title": "Translational Invariance In Detectors",
+      "excerpt": "Understanding how object detection systems handle translation invariance.",
+      "date": "2024-11-28",
+      "author": "Ari",
+      "image": "static/covers/Translational Invariance In Detectors.jpg"
+    },
+    {
+      "id": "2024-12-22-All-Detectors",
+      "title": "All Detectors",
+      "excerpt": "A comprehensive overview of object detection algorithms and their applications.",
+      "date": "2024-12-22",
+      "author": "Ari",
+      "image": "static/covers/All Detectors.jpg"
+    },
+    {
+      "id": "2024-12-30-Descriptive-Statistics",
+      "title": "Descriptive Statistics",
+      "excerpt": "Understanding the fundamentals of descriptive statistics in data analysis.",
+      "date": "2024-12-30",
+      "author": "Ari",
+      "image": "static/covers/Descriptive Statistics.jpg"
+    },
+    {
+      "id": "2025-01-01-RAG",
+      "title": "RAG",
+      "excerpt": "Exploring Retrieval-Augmented Generation in modern AI systems.",
+      "date": "2025-01-01",
+      "author": "Ari",
+      "image": "static/covers/Rag.jpg"
+    },
+    {
+      "id": "2025-01-17-ஜெயன்-விஜயன்",
+      "title": "ஜெயன் விஜயன்",
+      "excerpt": "A Tamil exploration of cultural narratives and storytelling traditions.",
+      "date": "2025-01-17",
+      "author": "Ari",
+      "image": "static/covers/ஜெயன் விஜயன்.jpg"
+    },
+    {
+      "id": "2025-02-14-Ai-And-Ari",
+      "title": "Ai And Ari",
+      "excerpt": "Exploring the intersection of artificial intelligence and human creativity.",
+      "date": "2025-02-14",
+      "author": "Ari",
+      "image": "static/covers/Ai And Ari.jpg"
+    },
+    {
+      "id": "2025-03-07-Language-Models-Evaluation",
+      "title": "Language Models Evaluation",
+      "excerpt": "Comprehensive methods for evaluating the performance of language models.",
+      "date": "2025-03-07",
+      "author": "Ari",
+      "image": "static/covers/Language Models Evaluation.jpg"
+    },
+    {
+      "id": "2025-06-30-LLMS-as-Data-Compressors",
+      "title": "LLMS as Data Compressors",
+      "excerpt": "Understanding how large language models function as sophisticated data compressors.",
+      "date": "2025-06-30",
+      "author": "Ari",
+      "image": "static/covers/Llms As Data Compressors.jpg"
+    },
+    {
+      "id": "2025-09-25-Ontogeny-recapitulates-phylogeny",
+      "title": "Ontogeny recapitulates phylogeny",
+      "excerpt": "Exploring the biological principle that individual development mirrors evolutionary history.",
+      "date": "2025-09-25",
+      "author": "Ari",
+      "image": "static/clover-1.png"
     }
   ]
 }
