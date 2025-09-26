@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "id": "2024-02-16-The-Peacock-Legend",
+      "title": "The Peacock Legend",
+      "excerpt": "A deep dive into the mythological and cultural significance of the peacock.",
+      "date": "2024-02-16",
+      "author": "Ari",
+      "image": "static/covers/peacock.webp"
+    },
+    {
       "id": "2024-08-07-El-And-Al",
       "title": "El And Al",
       "excerpt": "Exploring the linguistic and cultural connections between Arabic and Spanish.",
