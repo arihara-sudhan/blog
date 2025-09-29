@@ -127,8 +127,8 @@ class BlogApp {
                 if (response.ok) {
                     const content = await response.text();
                     const parsedPost = this.parseMarkdownPost(content, postId);
+        
                     post.content = parsedPost.content;
-                    post.title = parsedPost.title || post.title;
                     post.date = parsedPost.date || post.date;
                     post.author = parsedPost.author || post.author;
                     post.image = parsedPost.image || post.image;
