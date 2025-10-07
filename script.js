@@ -135,18 +135,15 @@ class BlogApp {
                 }
             } catch (error) {
                 console.error('Error loading post:', error);
-                alert('Error loading post content!');
                 return;
             }
         }
 
         if (!post) {
-            alert('Post not found!');
             return;
         }
 
         if (!post.content) {
-            alert('Post content not available!');
             return;
         }
 
