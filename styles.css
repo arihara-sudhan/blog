@@ -14,9 +14,16 @@ body {
 }
 
 .container {
-    max-width: 90vw;
     margin: 0 auto;
     padding: 0 2vw;
+}
+
+.container-wide {
+    max-width: 90vw;
+}
+
+.container-narrow {
+    max-width: 60vw;
 }
 
 .header {
@@ -136,6 +143,7 @@ body {
     margin-bottom: 1vw;
     color: #000000;
     line-height: 1.4;
+    text-align: center;
 }
 
 .post-card p {
@@ -199,6 +207,7 @@ body {
     font-size: 3vw;
     color: #000000;
     line-height: 1.3;
+    text-align: center;
 }
 
 .post-meta {
@@ -213,7 +222,6 @@ body {
     background: white;
     padding: 3vw;
     border-radius: 1vw;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     margin-bottom: 3vw;
     font-size: 1.3vw;
     line-height: 1.8;
@@ -229,6 +237,7 @@ body {
     color: #000000;
     margin: 2vw 0 1vw 0;
     font-weight: 600;
+    text-align: center;
 }
 
 .post-content h1 { font-size: 2.5vw; }
@@ -328,6 +337,7 @@ body {
     color: #000000;
     margin-bottom: 2vw;
     font-weight: 600;
+    text-align: center;
 }
 
 .comment-form {
@@ -432,6 +442,7 @@ body {
     font-size: 2.5vw;
     color: #000000;
     margin-bottom: 2vw;
+    text-align: center;
 }
 
 #about-page p {
@@ -454,7 +465,8 @@ body {
 }
 
 @media (max-width: 768px) {
-    .container {
+    .container-wide,
+    .container-narrow {
         max-width: 95vw;
         padding: 0 2.5vw;
     }
@@ -482,17 +494,17 @@ body {
     }
     
     .nav-link {
-        font-size: 1.5vw;
-        padding: 1vw 2vw;
+        font-size: 3.5vw;
+        padding: 2vw 3vw;
     }
     
     .hero h2 {
-        font-size: 6vw;
+        font-size: 8vw;
         margin-bottom: 2vw;
     }
     
     .hero p {
-        font-size: 3vw;
+        font-size: 4.5vw;
         letter-spacing: 0.3px;
     }
     
@@ -506,43 +518,108 @@ body {
     }
     
     .post-card h3 {
-        font-size: 2.5vw;
+        font-size: 5vw;
+        text-align: center;
     }
     
     .post-card p {
-        font-size: 1.8vw;
-    }
-    
-    .post-card-meta {
-        font-size: 1.5vw;
-    }
-    
-    #post-title {
         font-size: 4vw;
     }
     
+    .post-card-meta {
+        font-size: 3.5vw;
+    }
+    
+    #post-title {
+        font-size: 7vw;
+        text-align: center;
+    }
+    
     .post-meta {
-        font-size: 1.8vw;
+        font-size: 4vw;
     }
     
     .post-content {
-        font-size: 1.8vw;
+        font-size: 4.5vw;
         padding: 4vw;
     }
     
-    .post-content h1 { font-size: 3.5vw; }
-    .post-content h2 { font-size: 3vw; }
-    .post-content h3 { font-size: 2.5vw; }
+    .post-content h1 { 
+        font-size: 6.5vw;
+        text-align: center;
+    }
+    .post-content h2 { 
+        font-size: 6vw;
+        text-align: center;
+    }
+    .post-content h3 { 
+        font-size: 5.5vw;
+        text-align: center;
+    }
+    .post-content h4 {
+        text-align: center;
+    }
     
     .comment-form textarea,
     .comment-form input {
-        font-size: 1.8vw;
-        padding: 1.5vw;
+        font-size: 4vw;
+        padding: 3vw;
     }
     
     .comment-form button {
-        font-size: 1.8vw;
-        padding: 1.5vw 3vw;
+        font-size: 4vw;
+        padding: 3vw 5vw;
+    }
+    
+    .comment-author {
+        font-size: 4vw;
+    }
+    
+    .comment-date {
+        font-size: 3.5vw;
+    }
+    
+    .comment-text {
+        font-size: 4vw;
+    }
+    
+    .comment-note {
+        font-size: 3.5vw;
+    }
+    
+    .back-link {
+        font-size: 4vw;
+    }
+    
+    .action-btn {
+        font-size: 4vw;
+    }
+    
+    .post-actions .action-btn {
+        font-size: 4vw;
+        padding: 2.5vw 4vw;
+    }
+    
+    .comments-section h3 {
+        font-size: 6vw;
+        text-align: center;
+    }
+    
+    #about-page h2 {
+        font-size: 7vw;
+        text-align: center;
+    }
+    
+    #about-page p {
+        font-size: 4.5vw;
+    }
+    
+    .footer p {
+        font-size: 3.5vw;
+    }
+    
+    .loading {
+        font-size: 4vw;
     }
 }
 

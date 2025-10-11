@@ -1,42 +1,40 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ari's Memo</title>
+    <title>AriZone</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css">
 </head>
 <body>
     <header class="header">
-        <div class="container">
-            <nav class="nav">
-            </nav>
-        </div>
     </header>
 
     <main class="main">
-        <div class="container">
-            <div id="home-page" class="page active">
+        <div id="home-page" class="page active">
+            <div class="container container-wide">
                 <div class="hero">
                     <img src="static/clover-1.png" alt="Blog Logo" class="hero-logo">
-                    <h2>Ari's Memo</h2>
+                    <h2>AriZone</h2>
                     <p>What if Ari's eyes are your receptive fields...</p>
                 </div>
                 
                 <div class="posts-grid" id="posts-grid">
                 </div>
             </div>
+        </div>
 
-            <div id="about-page" class="page">
+        <div id="about-page" class="page">
+            <div class="container container-narrow">
                 <h2>About This Blog</h2>
                 <p>This is a simple blog built with HTML, CSS, and JavaScript. It supports markdown posts, unique URLs, and commenting via GitHub Discussions.</p>
             </div>
+        </div>
 
-            <div id="post-page" class="page">
+        <div id="post-page" class="page">
+            <div class="container container-narrow">
                 <div class="post-header">
-                    <a href="#home" class="back-link">← Back to Home</a>
                     <h1 id="post-title"></h1>
                 </div>
                 

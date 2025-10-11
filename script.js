@@ -40,12 +40,6 @@ class BlogApp {
                 this.navigateToPage(page);
             });
         });
-
-
-        document.querySelector('.back-link').addEventListener('click', (e) => {
-            e.preventDefault();
-            this.navigateToPage('home');
-        });
     }
 
     handleRouting() {
