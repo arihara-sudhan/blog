@@ -3,6 +3,7 @@ class BlogApp {
         this.posts = [];
         this.currentPost = null;
         this.comments = {};
+        this.currentTopic = 'all';
         
         this.init();
     }
@@ -38,6 +39,16 @@ class BlogApp {
                 e.preventDefault();
                 const page = link.dataset.page;
                 this.navigateToPage(page);
+            });
+        });
+
+        document.querySelectorAll('.topic-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const topic = btn.dataset.topic;
+                this.filterByTopic(topic);
+                
+                document.querySelectorAll('.topic-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
             });
         });
     }
@@ -90,6 +101,11 @@ class BlogApp {
         this.renderPosts();
     }
 
+    filterByTopic(topic) {
+        this.currentTopic = topic;
+        this.renderPosts();
+    }
+
     renderPosts() {
         const postsGrid = document.getElementById('posts-grid');
         
@@ -98,7 +114,16 @@ class BlogApp {
             return;
         }
 
-        postsGrid.innerHTML = this.posts.map(post => `
+        const filteredPosts = this.currentTopic === 'all' 
+            ? this.posts 
+            : this.posts.filter(post => post.category === this.currentTopic);
+
+        if (filteredPosts.length === 0) {
+            postsGrid.innerHTML = '<div class="loading">No posts in this category yet</div>';
+            return;
+        }
+
+        postsGrid.innerHTML = filteredPosts.map(post => `
             <div class="post-card" onclick="blogApp.showPost('${post.id}')">
                 ${post.image ? `<img src="${post.image}" alt="${post.title}" class="post-card-image">` : ''}
                 <div class="post-card-content">

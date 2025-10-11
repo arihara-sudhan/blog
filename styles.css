@@ -107,6 +107,42 @@ body {
     color: #000000;
     font-weight: 300;
     letter-spacing: 0.5px;
+    text-align: center;
+}
+
+.topics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    margin: 0;
+    flex-wrap: nowrap;
+    font-size: 1vw;
+    white-space: nowrap;
+}
+
+.topic-separator {
+    color: #000000;
+}
+
+.topic-btn {
+    background: none;
+    color: #000000;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1vw;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.topic-btn:hover {
+    opacity: 0.7;
+}
+
+.topic-btn.active {
+    font-weight: bold;
 }
 
 .posts-grid {
@@ -514,8 +550,25 @@ body {
     }
     
     .hero p {
-        font-size: 4.5vw;
+        font-size: 3.5vw;
         letter-spacing: 0.3px;
+        text-align: center;
+    }
+    
+    .topics {
+        gap: 1.5vw;
+        margin: 0;
+        font-size: 2.5vw;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+    }
+    
+    .topic-btn {
+        font-size: 2.5vw;
+    }
+    
+    .topic-separator {
+        font-size: 2.5vw;
     }
     
     .posts-grid {

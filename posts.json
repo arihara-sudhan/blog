@@ -6,7 +6,8 @@
       "excerpt": "A heartwarming story of rescuing a drowning peafowl chick during an evening walk in the woods, and the beautiful moment of reuniting it with its mother.",
       "date": "2024-02-16",
       "author": "Ari",
-      "image": "static/covers/peacock.webp"
+      "image": "static/covers/peacock.webp",
+      "category": "deeploving"
     },
     {
       "id": "2024-07-01-Etymology-of-Bamboo",
@@ -14,7 +15,8 @@
       "excerpt": "From village memories to linguistic discoveries: exploring how 'Paambu' (snake) connects to bamboo, and the fascinating journey from Tamil 'Pirambu' to the scientific understanding of rattan and bamboo relationships.",
       "date": "2024-07-01",
       "author": "Ari",
-      "image": "static/covers/bamboo-cover.jpg"
+      "image": "static/covers/bamboo-cover.jpg",
+      "category": "deepobserving"
     },
     {
       "id": "2024-07-18-Bermuda-Grass",
@@ -22,7 +24,8 @@
       "excerpt": "From Arugampul to Cynodon dactylon: exploring how Bermuda grass connects to Tamil culture, Pillaiyaar worship, and the fascinating etymology of 'dog-teeth' grass that plays a role in Hindu mythology and village life.",
       "date": "2024-07-18",
       "author": "Ari",
-      "image": "static/covers/bermuda-cover.jpg"
+      "image": "static/covers/bermuda-cover.jpg",
+      "category": "deepobserving"
     },
     {
       "id": "2024-08-07-El-And-Al",
@@ -30,7 +33,8 @@
       "excerpt": "Uncovering the Tamil roots of 'El' (Sun/God) and 'Al' (Moon/Dark) in global languages, from Greek Hēlios to Arabic Allah, and exploring the mysterious linguistic connections in biblical texts and cultural expressions.",
       "date": "2024-08-07",
       "author": "Ari",
-      "image": "static/covers/el_and_al.jpg"
+      "image": "static/covers/el_and_al.jpg",
+      "category": "deepobserving"
     },
     {
       "id": "2024-10-14-Marsupial",
@@ -38,7 +42,8 @@
       "excerpt": "From Marsupilami cartoons to Tamil etymology: discovering how 'marsupial' might derive from Tamil 'Mar' (breast) and 'Supial' (suckling animals), revealing potential ancient connections between Tamil Nadu, Africa, and Australia.",
       "date": "2024-10-14",
       "author": "Ari",
-      "image": "static/covers/marsupial-cover.jpg"
+      "image": "static/covers/marsupial-cover.jpg",
+      "category": "deepobserving"
     },
     {
       "id": "2024-11-28-Translational-Invariance-In-Detectors",
@@ -46,7 +51,8 @@
       "excerpt": "A bus journey revelation: how a grasshopper's balance inspired thoughts on translational invariance in object detection algorithms, exploring the differences between two-stage and single-stage detectors.",
       "date": "2024-11-28",
       "author": "Ari",
-      "image": "static/covers/translational-invariance.jpg"
+      "image": "static/covers/translational-invariance.jpg",
+      "category": "deeplearning"
     },
     {
       "id": "2025-01-17-ஜெயன்-விஜயன்",
@@ -54,7 +60,8 @@
       "excerpt": "From temple sculptures to biblical connections: exploring the profound symbolism of Jaya and Vijaya as temple guardians, their artistic representations, and their fascinating parallels with biblical cherubim in ancient texts.",
       "date": "2025-01-17",
       "author": "Ari",
-      "image": "static/covers/jayan-vijayan-cover.jpg"
+      "image": "static/covers/jayan-vijayan-cover.jpg",
+      "category": "deepobserving"
     }
   ]
 }
