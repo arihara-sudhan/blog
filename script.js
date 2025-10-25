@@ -57,7 +57,7 @@ class BlogApp {
         const hash = window.location.hash.substring(1);
         
         if (hash.startsWith('post/')) {
-            const postId = hash.substring(5);
+            const postId = decodeURIComponent(hash.substring(5));
             this.showPost(postId);
         } else if (hash === 'about') {
             this.navigateToPage('about');

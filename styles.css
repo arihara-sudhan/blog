@@ -238,6 +238,7 @@ body {
     text-decoration: underline;
 }
 
+
 #post-title {
     font-family: "Playfair Display", serif;
     font-size: 3vw;
@@ -510,6 +511,18 @@ body {
     text-decoration: underline;
 }
 
+.footer-blog-link {
+    color: #4a7c4a;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.footer-blog-link:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
 @media (max-width: 768px) {
     .container-wide,
     .container-narrow {
@@ -657,6 +670,7 @@ body {
     .action-btn {
         font-size: 4vw;
     }
+    
     
     .post-actions .action-btn {
         font-size: 4vw;
