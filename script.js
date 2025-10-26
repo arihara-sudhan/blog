@@ -114,9 +114,12 @@ class BlogApp {
             return;
         }
 
+        // Sort posts by date in descending order (newest first)
+        const sortedPosts = [...this.posts].sort((a, b) => new Date(b.date) - new Date(a.date));
+
         const filteredPosts = this.currentTopic === 'all' 
-            ? this.posts 
-            : this.posts.filter(post => post.category === this.currentTopic);
+            ? sortedPosts 
+            : sortedPosts.filter(post => post.category === this.currentTopic);
 
         if (filteredPosts.length === 0) {
             postsGrid.innerHTML = '<div class="loading">No posts in this category yet</div>';
