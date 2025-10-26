@@ -26,7 +26,7 @@ Therefore, I let the chick fly, my mind filled with positive energy asusual! ❤
 
 Watch what you have read now....
 
-<iframe width="560" height="315"
+<iframe width="100%"
   src="https://www.youtube.com/embed/nW7fpCiUwlo"
   title="YouTube video player"
   frameborder="0"
