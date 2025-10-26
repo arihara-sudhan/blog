@@ -247,6 +247,14 @@ body {
     text-align: center;
 }
 
+#post-title + hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, transparent, #000000, transparent);
+    margin: 2vw auto 1vw auto;
+    width: 60%;
+}
+
 .post-meta {
     display: flex;
     gap: 2vw;
@@ -609,6 +617,11 @@ body {
     #post-title {
         font-size: 7vw;
         text-align: center;
+    }
+    
+    #post-title + hr {
+        margin: 4vw auto 2vw auto;
+        width: 80%;
     }
     
     .post-meta {

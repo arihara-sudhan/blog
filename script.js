@@ -142,7 +142,11 @@ class BlogApp {
         
         if (post && !post.content) {
             try {
-                const response = await fetch(`https://raw.githubusercontent.com/arihara-sudhan/blog/main/posts/${postId}.md`);
+                // Try local file first, fallback to GitHub
+                let response = await fetch(`posts/${postId}.md`);
+                if (!response.ok) {
+                    response = await fetch(`https://raw.githubusercontent.com/arihara-sudhan/blog/main/posts/${postId}.md`);
+                }
                 if (response.ok) {
                     const content = await response.text();
                     const parsedPost = this.parseMarkdownPost(content, postId);
@@ -231,7 +235,14 @@ class BlogApp {
     }
 
     renderPost(post) {
-        document.getElementById('post-title').textContent = post.title;
+        const postTitleElement = document.getElementById('post-title');
+        postTitleElement.textContent = post.title;
+        
+        // Add hr after title if it doesn't exist
+        if (!postTitleElement.nextElementSibling || !postTitleElement.nextElementSibling.tagName === 'HR') {
+            const hr = document.createElement('hr');
+            postTitleElement.parentNode.insertBefore(hr, postTitleElement.nextSibling);
+        }
         
         const htmlContent = marked.parse(post.content);
         document.getElementById('post-content').innerHTML = htmlContent;
