@@ -26,9 +26,4 @@ Therefore, I let the chick fly, my mind filled with positive energy asusual! ❤
 
 Watch what you have read now....
 
-<iframe width="560" height="315"
-  src="https://www.youtube.com/embed/nW7fpCiUwlo"
-  frameborder="0"
-  allow="autoplay; encrypted-media"
-  allowfullscreen>
-</iframe>
+[![Everything Is AWESOME](https://img.youtube.com/vi/nW7fpCiUwlo/0.jpg)](https://www.youtube.com/watch?v=nW7fpCiUwlo "PCockChickRescued")
