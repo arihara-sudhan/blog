@@ -3,7 +3,7 @@
     {
       "id": "2024-02-16-The-Peacock-Legend",
       "title": "The Peacock Legend",
-      "excerpt": "A heartwarming story of rescuing a drowning peafowl chick during an evening walk in the woods, and the beautiful moment of reuniting it with its mother.",
+      "excerpt": "Rescuing a drowning peafowl chick and reuniting it with its mother.",
       "date": "2024-02-16",
       "author": "Ari",
       "image": "static/covers/peacock.webp",
@@ -12,7 +12,7 @@
     {
       "id": "2024-07-01-Etymology-of-Bamboo",
       "title": "Etymology of Bamboo",
-      "excerpt": "From village memories to linguistic discoveries: exploring how 'Paambu' (snake) connects to bamboo, and the fascinating journey from Tamil 'Pirambu' to the scientific understanding of rattan and bamboo relationships.",
+      "excerpt": "How 'Paambu' (snake) connects to bamboo in Tamil etymology.",
       "date": "2024-07-01",
       "author": "Ari",
       "image": "static/covers/bamboo-cover.jpg",
@@ -21,7 +21,7 @@
     {
       "id": "2024-07-18-Bermuda-Grass",
       "title": "Bermuda Grass",
-      "excerpt": "From Arugampul to Cynodon dactylon: exploring how Bermuda grass connects to Tamil culture, Pillaiyaar worship, and the fascinating etymology of 'dog-teeth' grass that plays a role in Hindu mythology and village life.",
+      "excerpt": "Bermuda grass, Pillaiyaar worship, and the 'dog-teeth' etymology in Tamil culture.",
       "date": "2024-07-18",
       "author": "Ari",
       "image": "static/covers/bermuda-cover.jpg",
@@ -30,16 +30,25 @@
     {
       "id": "2024-08-07-El-And-Al",
       "title": "El And Al",
-      "excerpt": "Uncovering the Tamil roots of 'El' (Sun/God) and 'Al' (Moon/Dark) in global languages, from Greek Hēlios to Arabic Allah, and exploring the mysterious linguistic connections in biblical texts and cultural expressions.",
+      "excerpt": "Tamil roots of 'El' and 'Al' in global languages from Greek to Arabic.",
       "date": "2024-08-07",
       "author": "Ari",
       "image": "static/covers/el_and_al.jpg",
       "category": "deepobserving"
     },
     {
+      "id": "2024-03-22-Colocynth",
+      "title": "Colocynth",
+      "excerpt": "The bitter cucumber 'Kumuttikaay' and childhood pranks in the village.",
+      "date": "2024-03-22",
+      "author": "Ari",
+      "image": "static/covers/colocynthis-cover.jpg",
+      "category": "deepobserving"
+    },
+    {
       "id": "2024-10-14-Marsupial",
       "title": "Marsupial",
-      "excerpt": "From Marsupilami cartoons to Tamil etymology: discovering how 'marsupial' might derive from Tamil 'Mar' (breast) and 'Supial' (suckling animals), revealing potential ancient connections between Tamil Nadu, Africa, and Australia.",
+      "excerpt": "How 'marsupial' might come from Tamil 'Mar' and 'Supial'.",
       "date": "2024-10-14",
       "author": "Ari",
       "image": "static/covers/marsupial-cover.jpg",
@@ -48,7 +57,7 @@
     {
       "id": "2024-11-28-Translational-Invariance-In-Detectors",
       "title": "Translational Invariance In Detectors",
-      "excerpt": "A bus journey revelation: how a grasshopper's balance inspired thoughts on translational invariance in object detection algorithms, exploring the differences between two-stage and single-stage detectors.",
+      "excerpt": "A grasshopper's balance and translational invariance in object detection.",
       "date": "2024-11-28",
       "author": "Ari",
       "image": "static/covers/translational-invariance.jpg",
@@ -57,7 +66,7 @@
     {
       "id": "2025-01-17-ஜெயன்-விஜயன்",
       "title": "ஜெயன் விஜயன்",
-      "excerpt": "From temple sculptures to biblical connections: exploring the profound symbolism of Jaya and Vijaya as temple guardians, their artistic representations, and their fascinating parallels with biblical cherubim in ancient texts.",
+      "excerpt": "Jaya and Vijaya temple guardians and their biblical connections.",
       "date": "2025-01-17",
       "author": "Ari",
       "image": "static/covers/jayan-vijayan-cover.jpg",
@@ -66,7 +75,7 @@
     {
       "id": "2025-10-26-ஓய்வு-நாள்",
       "title": "ஓய்வு நாள்",
-      "excerpt": "மனத்தை மீண்டும் உயிர்ப்பிக்கும், ஆவியில் நிரம்பும் நாள் தரும் ஆனந்த நினைவுகள்.",
+      "excerpt": "ஆவியில் நிரம்பும் நாள் தரும் ஆனந்த நினைவுகள்.",
       "date": "2025-10-26",
       "author": "Ari",
       "image": "static/covers/oyvu-naal.png",
